@@ -17,6 +17,7 @@
 		C282EA6B21181BAE009409F2 /* Tab1TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C282EA6A21181BAE009409F2 /* Tab1TableViewCell.swift */; };
 		C282EA6F21183EB5009409F2 /* Tab2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C282EA6E21183EB5009409F2 /* Tab2ViewController.swift */; };
 		C282EA7121183EE6009409F2 /* Tab3ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C282EA7021183EE6009409F2 /* Tab3ViewController.swift */; };
+		C2C1672E21196BB600952595 /* Tab1ListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2C1672D21196BB600952595 /* Tab1ListTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		C282EA6A21181BAE009409F2 /* Tab1TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tab1TableViewCell.swift; sourceTree = "<group>"; };
 		C282EA6E21183EB5009409F2 /* Tab2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tab2ViewController.swift; sourceTree = "<group>"; };
 		C282EA7021183EE6009409F2 /* Tab3ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tab3ViewController.swift; sourceTree = "<group>"; };
+		C2C1672D21196BB600952595 /* Tab1ListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tab1ListTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +71,7 @@
 				C242F12C21196E67002F8214 /* FavoriteTableViewController.swift */,
 				C242F12E21196E76002F8214 /* FavoriteTableViewCell.swift */,
 				C282EA6821181B0B009409F2 /* tab1UIViewController.swift */,
+				C2C1672D21196BB600952595 /* Tab1ListTableViewController.swift */,
 				C282EA6A21181BAE009409F2 /* Tab1TableViewCell.swift */,
 				C282EA6E21183EB5009409F2 /* Tab2ViewController.swift */,
 				C282EA7021183EE6009409F2 /* Tab3ViewController.swift */,
@@ -152,6 +155,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C282EA6B21181BAE009409F2 /* Tab1TableViewCell.swift in Sources */,
+				C2C1672E21196BB600952595 /* Tab1ListTableViewController.swift in Sources */,
 				C282EA6921181B0B009409F2 /* tab1UIViewController.swift in Sources */,
 				C282EA7121183EE6009409F2 /* Tab3ViewController.swift in Sources */,
 				C282EA53211814E7009409F2 /* AppDelegate.swift in Sources */,
