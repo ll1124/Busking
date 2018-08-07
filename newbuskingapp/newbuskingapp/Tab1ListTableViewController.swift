@@ -34,13 +34,13 @@ class Tab1ListTableViewController: UITableViewController, UITableViewDataSource{
         return plays.count
     }
     
-    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell { let cell = tableView.dequeueReusableCell(withIdentifier: "Tab1TableViewCell", for: indexPath) as! Tab1TableViewCell
+    override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell { let cell = tableView.dequeueReusableCell(withIdentifier: "Tab1TableViewCell", for: indexPath) as! Tab1TableViewCell
         
         
         let item = plays[indexPath.row]
         
         cell.time.text = item.time
-        cell.placeLabel.text = item.place
+        cell.place.text = item.place
         
         
         return cell

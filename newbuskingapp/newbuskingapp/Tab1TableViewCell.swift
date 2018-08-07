@@ -8,7 +8,7 @@
 
 import UIKit
 
-
+class Tab1TableViewCell: UITableViewCell {
     @IBOutlet weak var time: UILabel!
     @IBOutlet weak var place: UILabel!
     @IBOutlet weak var artist: UILabel!
