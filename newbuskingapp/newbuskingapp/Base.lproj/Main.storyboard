@@ -238,10 +238,10 @@
             </objects>
             <point key="canvasLocation" x="47" y="472"/>
         </scene>
-        <!--Tab1 List Table View Table View Controller-->
+        <!--Tab1 List Table View Controller-->
         <scene sceneID="tN6-Kq-JUg">
             <objects>
-                <tableViewController id="8kg-zc-uNt" customClass="Tab1ListTableViewTableViewController" customModule="newbuskingapp" customModuleProvider="target" sceneMemberID="viewController">
+                <tableViewController id="8kg-zc-uNt" customClass="Tab1ListTableViewController" customModule="newbuskingapp" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="NXb-Qh-MhB">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="246"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
