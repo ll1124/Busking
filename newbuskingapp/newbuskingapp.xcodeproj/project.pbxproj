@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		C242F12D21196E67002F8214 /* FavoriteTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C242F12C21196E67002F8214 /* FavoriteTableViewController.swift */; };
 		C242F12F21196E76002F8214 /* FavoriteTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C242F12E21196E76002F8214 /* FavoriteTableViewCell.swift */; };
+		C242F131211981C6002F8214 /* FollowingTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C242F130211981C6002F8214 /* FollowingTableViewCell.swift */; };
+		C242F133211981D8002F8214 /* FollowingTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C242F132211981D8002F8214 /* FollowingTableViewController.swift */; };
 		C282EA53211814E7009409F2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C282EA52211814E7009409F2 /* AppDelegate.swift */; };
 		C282EA58211814E7009409F2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C282EA56211814E7009409F2 /* Main.storyboard */; };
 		C282EA5A211814E7009409F2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C282EA59211814E7009409F2 /* Assets.xcassets */; };
@@ -23,6 +25,8 @@
 /* Begin PBXFileReference section */
 		C242F12C21196E67002F8214 /* FavoriteTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteTableViewController.swift; sourceTree = "<group>"; };
 		C242F12E21196E76002F8214 /* FavoriteTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteTableViewCell.swift; sourceTree = "<group>"; };
+		C242F130211981C6002F8214 /* FollowingTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FollowingTableViewCell.swift; sourceTree = "<group>"; };
+		C242F132211981D8002F8214 /* FollowingTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FollowingTableViewController.swift; sourceTree = "<group>"; };
 		C282EA4F211814E7009409F2 /* newbuskingapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = newbuskingapp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C282EA52211814E7009409F2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C282EA57211814E7009409F2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -68,6 +72,8 @@
 			children = (
 				C282EA52211814E7009409F2 /* AppDelegate.swift */,
 				C282EA56211814E7009409F2 /* Main.storyboard */,
+				C242F132211981D8002F8214 /* FollowingTableViewController.swift */,
+				C242F130211981C6002F8214 /* FollowingTableViewCell.swift */,
 				C242F12C21196E67002F8214 /* FavoriteTableViewController.swift */,
 				C242F12E21196E76002F8214 /* FavoriteTableViewCell.swift */,
 				C282EA6821181B0B009409F2 /* tab1UIViewController.swift */,
@@ -157,7 +163,9 @@
 				C282EA6B21181BAE009409F2 /* Tab1TableViewCell.swift in Sources */,
 				C2C1672E21196BB600952595 /* Tab1ListTableViewController.swift in Sources */,
 				C282EA6921181B0B009409F2 /* tab1UIViewController.swift in Sources */,
+				C242F133211981D8002F8214 /* FollowingTableViewController.swift in Sources */,
 				C282EA7121183EE6009409F2 /* Tab3ViewController.swift in Sources */,
+				C242F131211981C6002F8214 /* FollowingTableViewCell.swift in Sources */,
 				C282EA53211814E7009409F2 /* AppDelegate.swift in Sources */,
 				C282EA6F21183EB5009409F2 /* Tab2ViewController.swift in Sources */,
 				C242F12F21196E76002F8214 /* FavoriteTableViewCell.swift in Sources */,

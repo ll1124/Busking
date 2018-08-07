@@ -170,6 +170,13 @@
                                     <segue destination="pzi-kz-mHT" kind="embed" id="jKl-v2-21j"/>
                                 </connections>
                             </containerView>
+                            <containerView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="6Lb-e1-5oF">
+                                <rect key="frame" x="0.0" y="177" width="375" height="441"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                                <connections>
+                                    <segue destination="ppj-xZ-TZ2" kind="embed" id="ueW-YS-dHk"/>
+                                </connections>
+                            </containerView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <gestureRecognizers/>
@@ -213,10 +220,74 @@
             </objects>
             <point key="canvasLocation" x="86" y="1260"/>
         </scene>
+        <!--Following Table View Controller-->
+        <scene sceneID="Pdf-ji-fob">
+            <objects>
+                <tableViewController id="ppj-xZ-TZ2" customClass="FollowingTableViewController" customModule="newbuskingapp" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="110" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="OYp-eG-Vn5">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="441"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="FollowingTableViewCell" rowHeight="123" id="RMt-ir-JFS" customClass="FollowingTableViewCell" customModule="newbuskingapp" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="28" width="375" height="123"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="RMt-ir-JFS" id="TBv-yf-jgY">
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="122.5"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="kfg-YD-lf4">
+                                            <rect key="frame" x="22" y="16" width="91" height="90"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        </imageView>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Buskername" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kL1-Sq-cke">
+                                            <rect key="frame" x="129" y="21" width="101" height="22"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Hashtag" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="X6Q-5Z-cqS">
+                                            <rect key="frame" x="129" y="48" width="224" height="21"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Followers" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6Hv-Rb-3xK">
+                                            <rect key="frame" x="156" y="80" width="62" height="21"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="heart" translatesAutoresizingMaskIntoConstraints="NO" id="frW-GG-VQe">
+                                            <rect key="frame" x="126" y="75" width="29" height="31"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        </imageView>
+                                    </subviews>
+                                </tableViewCellContentView>
+                                <connections>
+                                    <outlet property="buskerLabel" destination="kL1-Sq-cke" id="n6s-bC-rGt"/>
+                                    <outlet property="buskerimage" destination="kfg-YD-lf4" id="H3O-Ce-ab5"/>
+                                    <outlet property="followerLabel" destination="6Hv-Rb-3xK" id="ob9-jv-LwW"/>
+                                    <outlet property="hashtagLabel" destination="X6Q-5Z-cqS" id="9Bb-XU-GVJ"/>
+                                </connections>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="ppj-xZ-TZ2" id="v2S-8i-bYT"/>
+                            <outlet property="delegate" destination="ppj-xZ-TZ2" id="1Ag-8c-l9h"/>
+                        </connections>
+                    </tableView>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="hxK-Eu-NY2" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-378" y="1910"/>
+        </scene>
         <!--Favorite Table View Controller-->
         <scene sceneID="nlu-Zu-bst">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="tX6-e6-x5s" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <tableViewController id="pzi-kz-mHT" customClass="FavoriteTableViewController" customModule="newbuskingapp" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="110" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="buO-09-9uc">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="441"/>
@@ -275,8 +346,9 @@
                         </connections>
                     </tableView>
                 </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="tX6-e6-x5s" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1034" y="1911"/>
+            <point key="canvasLocation" x="-1031" y="1911"/>
         </scene>
         <!--버스커-->
         <scene sceneID="Ysh-7Z-Fr3">
