@@ -11,11 +11,11 @@ struct Following {
 class FollowingTableViewController: UITableViewController {
     
     var data = [
-        Following(busker: "김고양", hashtag: "#Piano #Ballad #solo", followers: "43", profileImage: "cat"),
-        Following(busker: "김안경", hashtag: "#Folk #Ballad #Dance #solo", followers: "121", profileImage: "10cm"),
-        Following(busker: "김로이", hashtag: "#Ballad #Drama #OST", followers: "235", profileImage: "roy"),
-        Following(busker: "선우정", hashtag: "#싱어송라이터 #독특한 가사", followers: "45", profileImage: "sun"),
-        Following(busker: "노서우", hashtag: "#싱어송라이터 #기타", followers: "143", profileImage: "profile")
+        Following(busker: "김고양", hashtag: "#Piano #Ballad #solo", followers: "8231", profileImage: "cat"),
+        Following(busker: "Black", hashtag: "#Indie #Guitar #Duo", followers: "121", profileImage: "black"),
+        Following(busker: "김안경", hashtag: "##Folk #Ballad #Dance #solo", followers: "5096", profileImage: "10cm"),
+        Following(busker: "오혁", hashtag: "#Band #Indie #Group #독특한 음색", followers: "45", profileImage: "oh"),
+        Following(busker: "최백연", hashtag: "#싱어송라이터 #젬베", followers: "143", profileImage: "profile")
         
     ]
     
