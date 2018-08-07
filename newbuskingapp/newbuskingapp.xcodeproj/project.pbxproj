@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C242F12D21196E67002F8214 /* FavoriteTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C242F12C21196E67002F8214 /* FavoriteTableViewController.swift */; };
+		C242F12F21196E76002F8214 /* FavoriteTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C242F12E21196E76002F8214 /* FavoriteTableViewCell.swift */; };
 		C282EA53211814E7009409F2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C282EA52211814E7009409F2 /* AppDelegate.swift */; };
 		C282EA58211814E7009409F2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C282EA56211814E7009409F2 /* Main.storyboard */; };
 		C282EA5A211814E7009409F2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C282EA59211814E7009409F2 /* Assets.xcassets */; };
@@ -18,6 +20,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C242F12C21196E67002F8214 /* FavoriteTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteTableViewController.swift; sourceTree = "<group>"; };
+		C242F12E21196E76002F8214 /* FavoriteTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteTableViewCell.swift; sourceTree = "<group>"; };
 		C282EA4F211814E7009409F2 /* newbuskingapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = newbuskingapp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C282EA52211814E7009409F2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C282EA57211814E7009409F2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -62,6 +66,8 @@
 			children = (
 				C282EA52211814E7009409F2 /* AppDelegate.swift */,
 				C282EA56211814E7009409F2 /* Main.storyboard */,
+				C242F12C21196E67002F8214 /* FavoriteTableViewController.swift */,
+				C242F12E21196E76002F8214 /* FavoriteTableViewCell.swift */,
 				C282EA6821181B0B009409F2 /* tab1UIViewController.swift */,
 				C282EA6A21181BAE009409F2 /* Tab1TableViewCell.swift */,
 				C282EA6E21183EB5009409F2 /* Tab2ViewController.swift */,
@@ -150,6 +156,8 @@
 				C282EA7121183EE6009409F2 /* Tab3ViewController.swift in Sources */,
 				C282EA53211814E7009409F2 /* AppDelegate.swift in Sources */,
 				C282EA6F21183EB5009409F2 /* Tab2ViewController.swift in Sources */,
+				C242F12F21196E76002F8214 /* FavoriteTableViewCell.swift in Sources */,
+				C242F12D21196E67002F8214 /* FavoriteTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
