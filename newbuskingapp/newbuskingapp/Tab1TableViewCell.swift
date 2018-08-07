@@ -38,8 +38,6 @@ class Tab1TableViewCell: UITableViewCell {
     @IBOutlet weak var heartButton: UIButton!
     @IBOutlet weak var heartCount: UILabel!
     
-    
-    
 
 
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell { let cell = tableView.dequeueReusableCell(withIdentifier: "Tab1TableViewCell", for: indexPath) as! Tab1TableViewCell
