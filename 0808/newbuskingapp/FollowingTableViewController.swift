@@ -11,11 +11,11 @@ struct Following {
 class FollowingTableViewController: UITableViewController {
     
     var data = [
-        Following(busker: "정준일", hashtag: "#Piano #Ballad #solo #이별노래", followers: "1231", profileImage: "jung"),
-        Following(busker: "길구봉구", hashtag: "#Folk #Ballad #Duo", followers: "534", profileImage: "gu"),
+        Following(busker: "정준일", hashtag: "#Piano #Ballad #solo #이별노래", followers: "1298", profileImage: "jung"),
+        Following(busker: "길구봉구", hashtag: "#Duo #Folk #Ballad", followers: "1121", profileImage: "gu"),
         Following(busker: "김로이", hashtag: "#Ballad #Drama #OST", followers: "3456", profileImage: "roy"),
-        Following(busker: "혁오", hashtag: "#인디밴드 #독특한 음색", followers: "323", profileImage: "oh"),
-        Following(busker: "심재면", hashtag: "#싱어송라이터 #기타", followers: "12", profileImage: "profile")
+        Following(busker: "혁오", hashtag: "#인디밴드 #독특한 음색", followers: "534", profileImage: "oh"),
+        Following(busker: "심재면", hashtag: "#Guitar #Solo", followers: "12", profileImage: "profile")
         
     ]
     
@@ -23,6 +23,8 @@ class FollowingTableViewController: UITableViewController {
         super.viewDidLoad()
         
     }
+    
+    
     
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()

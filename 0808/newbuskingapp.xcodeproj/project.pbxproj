@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		C224662A211AA9880020B5AF /* FollowingTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2246629211AA9880020B5AF /* FollowingTableViewCell.swift */; };
-		C224662C211AA9A80020B5AF /* FollowingTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C224662B211AA9A80020B5AF /* FollowingTableViewController.swift */; };
+		C224662E211AB9110020B5AF /* FollowingTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C224662D211AB9110020B5AF /* FollowingTableViewController.swift */; };
+		C2246630211AB9240020B5AF /* FollowingTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C224662F211AB9240020B5AF /* FollowingTableViewCell.swift */; };
 		C242F12D21196E67002F8214 /* FavoriteTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C242F12C21196E67002F8214 /* FavoriteTableViewController.swift */; };
 		C242F12F21196E76002F8214 /* FavoriteTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C242F12E21196E76002F8214 /* FavoriteTableViewCell.swift */; };
 		C282EA53211814E7009409F2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C282EA52211814E7009409F2 /* AppDelegate.swift */; };
@@ -23,8 +23,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		C2246629211AA9880020B5AF /* FollowingTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FollowingTableViewCell.swift; sourceTree = "<group>"; };
-		C224662B211AA9A80020B5AF /* FollowingTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FollowingTableViewController.swift; sourceTree = "<group>"; };
+		C224662D211AB9110020B5AF /* FollowingTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FollowingTableViewController.swift; sourceTree = "<group>"; };
+		C224662F211AB9240020B5AF /* FollowingTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FollowingTableViewCell.swift; sourceTree = "<group>"; };
 		C242F12C21196E67002F8214 /* FavoriteTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteTableViewController.swift; sourceTree = "<group>"; };
 		C242F12E21196E76002F8214 /* FavoriteTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteTableViewCell.swift; sourceTree = "<group>"; };
 		C282EA4F211814E7009409F2 /* newbuskingapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = newbuskingapp.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -72,8 +72,8 @@
 			children = (
 				C282EA52211814E7009409F2 /* AppDelegate.swift */,
 				C282EA56211814E7009409F2 /* Main.storyboard */,
-				C224662B211AA9A80020B5AF /* FollowingTableViewController.swift */,
-				C2246629211AA9880020B5AF /* FollowingTableViewCell.swift */,
+				C224662D211AB9110020B5AF /* FollowingTableViewController.swift */,
+				C224662F211AB9240020B5AF /* FollowingTableViewCell.swift */,
 				C282EA6821181B0B009409F2 /* tab1UIViewController.swift */,
 				C2C1673121197F6700952595 /* Tab1ListTableViewController.swift */,
 				C282EA6A21181BAE009409F2 /* Tab1TableViewCell.swift */,
@@ -161,11 +161,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				C282EA6B21181BAE009409F2 /* Tab1TableViewCell.swift in Sources */,
+				C2246630211AB9240020B5AF /* FollowingTableViewCell.swift in Sources */,
 				C2C1673421198CD200952595 /* Tab3TableViewController.swift in Sources */,
 				C282EA6921181B0B009409F2 /* tab1UIViewController.swift in Sources */,
-				C224662C211AA9A80020B5AF /* FollowingTableViewController.swift in Sources */,
+				C224662E211AB9110020B5AF /* FollowingTableViewController.swift in Sources */,
 				C282EA53211814E7009409F2 /* AppDelegate.swift in Sources */,
-				C224662A211AA9880020B5AF /* FollowingTableViewCell.swift in Sources */,
 				C282EA6F21183EB5009409F2 /* Tab2ViewController.swift in Sources */,
 				C2C1673221197F6700952595 /* Tab1ListTableViewController.swift in Sources */,
 				C242F12F21196E76002F8214 /* FavoriteTableViewCell.swift in Sources */,
