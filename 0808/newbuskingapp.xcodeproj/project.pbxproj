@@ -54,6 +54,7 @@
 		C282EA46211814E6009409F2 = {
 			isa = PBXGroup;
 			children = (
+				C2246629211AA9880020B5AF /* FollowingTableViewCell.swift */,
 				C282EA51211814E7009409F2 /* newbuskingapp */,
 				C282EA50211814E7009409F2 /* Products */,
 			);
@@ -73,7 +74,6 @@
 				C282EA52211814E7009409F2 /* AppDelegate.swift */,
 				C282EA56211814E7009409F2 /* Main.storyboard */,
 				C224662B211AA9A80020B5AF /* FollowingTableViewController.swift */,
-				C2246629211AA9880020B5AF /* FollowingTableViewCell.swift */,
 				C282EA6821181B0B009409F2 /* tab1UIViewController.swift */,
 				C2C1673121197F6700952595 /* Tab1ListTableViewController.swift */,
 				C282EA6A21181BAE009409F2 /* Tab1TableViewCell.swift */,
