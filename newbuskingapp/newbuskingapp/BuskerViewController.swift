@@ -1,29 +1,16 @@
 //
-//  Tab2ViewController.swift
+//  BuskerViewController.swift
 //  newbuskingapp
 //
-//  Created by 방문사용자 on 06/08/2018.
-//  Copyright © 2018 방문사용자. All rights reserved.
+//  Created by 방문사용자 on 2018. 8. 7..
+//  Copyright © 2018년 방문사용자. All rights reserved.
 //
 
 import UIKit
 
-class Tab2ViewController: UIViewController {
+class BuskerViewController: UIViewController {
 
     
-    @IBOutlet weak var segmented: UISegmentedControl!
-    @IBOutlet weak var followView: UIView!
-    @IBOutlet weak var hotView: UIView!
-    
-    @IBAction func segment(_ sender: Any) {
-        if segmented.selectedSegmentIndex == 0 {
-            self.view.bringSubview(toFront: hotView)
-    }
-        else {
-            self.view.bringSubview(toFront: followView)
-        }
-    
-    }
     
     override func viewDidLoad() {
         super.viewDidLoad()

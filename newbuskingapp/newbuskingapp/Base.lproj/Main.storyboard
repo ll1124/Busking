@@ -141,10 +141,10 @@
             </objects>
             <point key="canvasLocation" x="-1674.4000000000001" y="1259.8200899550227"/>
         </scene>
-        <!--View Controller-->
+        <!--Tab2 View Controller-->
         <scene sceneID="oBg-1S-8bc">
             <objects>
-                <viewController id="gV0-gW-L4P" sceneMemberID="viewController">
+                <viewController id="gV0-gW-L4P" customClass="Tab2ViewController" customModule="newbuskingapp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="7FC-bu-auC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -155,6 +155,10 @@
                                     <segment title="팔로워 순"/>
                                     <segment title="나의 팔로잉"/>
                                 </segments>
+                                <connections>
+                                    <action selector="buskere:" destination="gV0-gW-L4P" eventType="valueChanged" id="3b4-jn-hat"/>
+                                    <action selector="segment:" destination="gV0-gW-L4P" eventType="valueChanged" id="MyT-V5-3QS"/>
+                                </connections>
                             </segmentedControl>
                             <searchBar contentMode="redraw" translatesAutoresizingMaskIntoConstraints="NO" id="nt9-ID-nad">
                                 <rect key="frame" x="0.0" y="64" width="375" height="55"/>
@@ -198,6 +202,11 @@
                         </connections>
                     </view>
                     <navigationItem key="navigationItem" id="pVr-Vr-Vin"/>
+                    <connections>
+                        <outlet property="followView" destination="6Lb-e1-5oF" id="8lc-vO-Zpi"/>
+                        <outlet property="hotView" destination="dym-U5-BSO" id="d1h-Xq-BrL"/>
+                        <outlet property="segmented" destination="1lh-8M-o3k" id="RUz-Zv-QUf"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="PZT-4b-ybL" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <tapGestureRecognizer id="dh6-HE-mnV"/>
