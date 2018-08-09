@@ -15,6 +15,8 @@ class Tab2BuskerTableViewCell: UITableViewCell {
     @IBOutlet weak var Hashtag: UILabel!
     @IBOutlet weak var HeartButton: UIButton!
     @IBOutlet weak var HeartCount: UILabel!
+    @IBOutlet weak var BuskerImage: UIImageView!
+    
     
     
     
