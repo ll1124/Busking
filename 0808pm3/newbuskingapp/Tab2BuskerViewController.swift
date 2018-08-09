@@ -12,7 +12,7 @@ class Tab2BuskerViewController: UIViewController, UITableViewDataSource, UITable
   
     @IBOutlet weak var tab2BuskerTable: UITableView!
     @IBOutlet weak var tab2SearchBar: UISearchBar!
-   
+   //배열
     var buskerArray = [BuskerInfo]() //to setUpBuskers
     var currentBuskerArray = [BuskerInfo]() //update table
     override func viewDidLoad() {
@@ -38,7 +38,8 @@ class Tab2BuskerViewController: UIViewController, UITableViewDataSource, UITable
     }
     //search
     private func setUpSearchBar(){
-        searchBar.delegate = self
+        tab2SearchBar.delegate = self
+        
     }
     
     //Table
@@ -66,15 +67,21 @@ class Tab2BuskerViewController: UIViewController, UITableViewDataSource, UITable
     }
     
     //searchbar
-    func searchBar(_ searchBar: UISearchBar, textDidChange searchText: String) {
+    func searchBar (_ searchBar: UISearchBar, textDidChange searchText: String) {
+        guard !searchText.isEmpty else{
+            currentBuskerArray = buskerArray
+          tab2BuskerTable.reloadData()
+            return
+        }
         currentBuskerArray = buskerArray.filter({busker -> Bool in
-            guard let text = searchBar.text else {return false}
-            return busker.name.constains(text)
+            busker.name.lowercased().contains(searchText.lowercased())
             
         })
-        table.reloadData()
+      tab2BuskerTable.reloadData()
     }
-    func searchBar(_ searchBar: UISearchBar, selectedScopeButtonIndexDidChange selectedScope: Int){
+    
+    
+    func searchBar (_ searchBar: UISearchBar, selectedScopeButtonIndexDidChange selectedScope: Int){
         
     }
     
