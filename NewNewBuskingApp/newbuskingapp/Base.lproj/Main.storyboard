@@ -367,7 +367,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="aVv-AW-p9w" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="206" y="2023"/>
+            <point key="canvasLocation" x="211" y="2023"/>
         </scene>
         <!--버스커-->
         <scene sceneID="Ysh-7Z-Fr3">
@@ -411,43 +411,34 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="JlX-ri-RJR">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="cat" translatesAutoresizingMaskIntoConstraints="NO" id="JlX-ri-RJR">
                                 <rect key="frame" x="16" y="87" width="90" height="90"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="90" id="YQI-nw-jdv"/>
                                     <constraint firstAttribute="height" constant="90" id="jtu-vo-HIp"/>
                                 </constraints>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="이름" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JzK-gi-UKC">
-                                <rect key="frame" x="114" y="122" width="42" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="이름" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JzK-gi-UKC">
+                                <rect key="frame" x="114" y="127.5" width="28" height="19.5"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="아이디" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FSz-8J-4qs">
-                                <rect key="frame" x="114" y="94" width="56" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="아이디" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FSz-8J-4qs">
+                                <rect key="frame" x="114" y="102.5" width="39" height="18"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                 <color key="textColor" red="0.20000000300000001" green="0.20000000300000001" blue="0.20000000300000001" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="facebook" translatesAutoresizingMaskIntoConstraints="NO" id="mIN-8J-HrO">
-                                <rect key="frame" x="178" y="87" width="30" height="30"/>
+                                <rect key="frame" x="181" y="87" width="30" height="30"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="30" id="KQK-m4-zw8"/>
-                                    <constraint firstAttribute="height" constant="30" id="T4J-lx-fzr"/>
+                                    <constraint firstAttribute="height" constant="30" id="4hX-oP-5Nd"/>
+                                    <constraint firstAttribute="width" constant="30" id="CGO-iN-I3h"/>
                                 </constraints>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="instagram" translatesAutoresizingMaskIntoConstraints="NO" id="W6k-fb-2gS">
-                                <rect key="frame" x="216" y="89" width="30" height="30"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="30" id="8sH-nu-IKU"/>
-                                    <constraint firstAttribute="width" constant="30" id="8xr-Mx-kkF"/>
-                                </constraints>
-                            </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="swc-D1-3Qi">
-                                <rect key="frame" x="0.0" y="185" width="185" height="80"/>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="swc-D1-3Qi">
+                                <rect key="frame" x="31" y="186" width="113" height="80"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="185" id="Ccf-mv-t7a"/>
                                     <constraint firstAttribute="height" constant="80" id="aBH-VX-hBb"/>
@@ -455,7 +446,7 @@
                                 <state key="normal" title="follower"/>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="05" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="u1D-aX-Xhv">
-                                <rect key="frame" x="82" y="234" width="21" height="21"/>
+                                <rect key="frame" x="77" y="245" width="21" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
@@ -468,40 +459,68 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="내 소개 작성" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cQQ-VC-5I7">
-                                <rect key="frame" x="114" y="151" width="245" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="내 소개 작성" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cQQ-VC-5I7">
+                                <rect key="frame" x="114" y="155" width="68.5" height="17"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <containerView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="o8C-K3-Lrk">
+                            <containerView opaque="NO" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="o8C-K3-Lrk">
                                 <rect key="frame" x="0.0" y="293" width="378" height="601"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
                                 <connections>
                                     <segue destination="fXx-E8-9G6" kind="embed" id="BLH-3W-fet"/>
                                 </connections>
                             </containerView>
-                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="i8v-Oe-3j4">
-                                <rect key="frame" x="193" y="185" width="185" height="87"/>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="i8v-Oe-3j4">
+                                <rect key="frame" x="229" y="185" width="113" height="80"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="80" id="83r-ek-3Dh"/>
                                     <constraint firstAttribute="width" constant="185" id="ucx-47-UKE"/>
                                 </constraints>
                                 <state key="normal" title="following"/>
                             </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="instagram" translatesAutoresizingMaskIntoConstraints="NO" id="W6k-fb-2gS">
+                                <rect key="frame" x="219" y="85" width="35" height="32"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="30" id="gxV-dm-Yuo"/>
+                                    <constraint firstAttribute="height" constant="30" id="xvg-wx-7RM"/>
+                                </constraints>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
+                            <constraint firstItem="FSz-8J-4qs" firstAttribute="leading" secondItem="3kp-K7-SfT" secondAttribute="leadingMargin" constant="98" id="53w-xv-aRS"/>
+                            <constraint firstItem="JlX-ri-RJR" firstAttribute="leading" secondItem="agI-0A-9Rn" secondAttribute="leading" constant="16" id="59e-BS-Raj"/>
                             <constraint firstItem="mIN-8J-HrO" firstAttribute="top" secondItem="agI-0A-9Rn" secondAttribute="top" constant="23" id="6zQ-Py-HQ3"/>
                             <constraint firstItem="swc-D1-3Qi" firstAttribute="top" secondItem="JlX-ri-RJR" secondAttribute="bottom" constant="8" id="8cm-xj-7Zl"/>
+                            <constraint firstItem="i8v-Oe-3j4" firstAttribute="top" secondItem="cQQ-VC-5I7" secondAttribute="bottom" constant="13" id="9L0-k3-wLQ"/>
                             <constraint firstItem="swc-D1-3Qi" firstAttribute="leading" secondItem="agI-0A-9Rn" secondAttribute="leading" id="9cZ-9K-PCy"/>
+                            <constraint firstItem="cQQ-VC-5I7" firstAttribute="top" secondItem="JzK-gi-UKC" secondAttribute="bottom" constant="8" id="DQ1-aj-9KJ"/>
+                            <constraint firstItem="i8v-Oe-3j4" firstAttribute="leading" secondItem="swc-D1-3Qi" secondAttribute="trailing" constant="8" id="Fxw-SA-3A1"/>
+                            <constraint firstItem="JzK-gi-UKC" firstAttribute="top" secondItem="FSz-8J-4qs" secondAttribute="bottom" constant="7" id="GKX-TV-c0G"/>
+                            <constraint firstItem="swc-D1-3Qi" firstAttribute="top" secondItem="cQQ-VC-5I7" secondAttribute="bottom" constant="13" id="GVn-jh-Nxe"/>
+                            <constraint firstItem="cQQ-VC-5I7" firstAttribute="top" secondItem="JzK-gi-UKC" secondAttribute="bottom" constant="8" id="JCy-uo-b9z"/>
                             <constraint firstItem="i8v-Oe-3j4" firstAttribute="leading" secondItem="swc-D1-3Qi" secondAttribute="trailing" constant="8" id="KzH-7K-CHf"/>
                             <constraint firstItem="i8v-Oe-3j4" firstAttribute="trailing" secondItem="agI-0A-9Rn" secondAttribute="trailing" id="KzW-3A-aEN"/>
+                            <constraint firstItem="i8v-Oe-3j4" firstAttribute="top" secondItem="W6k-fb-2gS" secondAttribute="bottom" constant="66" id="Lki-OQ-spl"/>
+                            <constraint firstItem="o8C-K3-Lrk" firstAttribute="top" secondItem="i8v-Oe-3j4" secondAttribute="bottom" constant="21" id="PAa-X8-XIt"/>
+                            <constraint firstItem="W6k-fb-2gS" firstAttribute="top" secondItem="agI-0A-9Rn" secondAttribute="top" constant="23" id="RlG-eG-YYk"/>
+                            <constraint firstItem="mIN-8J-HrO" firstAttribute="leading" secondItem="agI-0A-9Rn" secondAttribute="leading" constant="181" id="VDm-Bh-yoY"/>
                             <constraint firstItem="JlX-ri-RJR" firstAttribute="top" secondItem="agI-0A-9Rn" secondAttribute="top" constant="23" id="Y9i-NV-N55"/>
+                            <constraint firstItem="W6k-fb-2gS" firstAttribute="leading" secondItem="mIN-8J-HrO" secondAttribute="trailing" constant="8" id="YKu-Qp-5By"/>
                             <constraint firstItem="JlX-ri-RJR" firstAttribute="leading" secondItem="agI-0A-9Rn" secondAttribute="leading" constant="16" id="Z1k-Ji-bHa"/>
+                            <constraint firstItem="JzK-gi-UKC" firstAttribute="leading" secondItem="JlX-ri-RJR" secondAttribute="trailing" constant="8" id="bvU-Yj-53C"/>
                             <constraint firstItem="W6k-fb-2gS" firstAttribute="top" secondItem="agI-0A-9Rn" secondAttribute="top" constant="25" id="ddq-GX-SfR"/>
+                            <constraint firstItem="JlX-ri-RJR" firstAttribute="top" secondItem="agI-0A-9Rn" secondAttribute="top" constant="23" id="fv6-EP-uK3"/>
                             <constraint firstItem="W6k-fb-2gS" firstAttribute="leading" secondItem="mIN-8J-HrO" secondAttribute="trailing" constant="8" id="fwB-8v-Oxw"/>
+                            <constraint firstItem="W6k-fb-2gS" firstAttribute="leading" secondItem="mIN-8J-HrO" secondAttribute="trailing" constant="8" id="idj-cN-hA9"/>
+                            <constraint firstItem="swc-D1-3Qi" firstAttribute="top" secondItem="JlX-ri-RJR" secondAttribute="bottom" constant="8" id="jOi-ts-vEp"/>
+                            <constraint firstItem="mIN-8J-HrO" firstAttribute="top" secondItem="agI-0A-9Rn" secondAttribute="top" constant="23" id="m6m-1U-CXy"/>
+                            <constraint firstItem="JzK-gi-UKC" firstAttribute="leading" secondItem="JlX-ri-RJR" secondAttribute="trailing" constant="8" id="mNL-7G-vuN"/>
+                            <constraint firstItem="cQQ-VC-5I7" firstAttribute="leading" secondItem="JlX-ri-RJR" secondAttribute="trailing" constant="8" id="mg3-S3-MaP"/>
+                            <constraint firstItem="swc-D1-3Qi" firstAttribute="top" secondItem="mIN-8J-HrO" secondAttribute="bottom" constant="68" id="oMQ-EF-RF6"/>
+                            <constraint firstItem="agI-0A-9Rn" firstAttribute="trailing" secondItem="W6k-fb-2gS" secondAttribute="trailing" constant="60" id="sNg-yR-dQr"/>
+                            <constraint firstAttribute="trailing" secondItem="i8v-Oe-3j4" secondAttribute="trailing" constant="3" id="xPG-1o-NoG"/>
                             <constraint firstItem="agI-0A-9Rn" firstAttribute="trailing" secondItem="W6k-fb-2gS" secondAttribute="trailing" constant="9" id="xxE-k3-foU"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="agI-0A-9Rn"/>
@@ -510,7 +529,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="NbH-QO-ahL" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="63" y="1248"/>
+            <point key="canvasLocation" x="61.600000000000001" y="1247.2263868065968"/>
         </scene>
         <!--Tab1 List Table View Controller-->
         <scene sceneID="tN6-Kq-JUg">
@@ -667,6 +686,7 @@
         </scene>
     </scenes>
     <resources>
+        <image name="cat" width="140" height="139"/>
         <image name="facebook" width="84" height="86"/>
         <image name="heart" width="100" height="100"/>
         <image name="icons8-male-user-64" width="32" height="32"/>
