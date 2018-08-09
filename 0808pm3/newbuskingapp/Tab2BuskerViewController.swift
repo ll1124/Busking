@@ -71,8 +71,7 @@ class Tab2BuskerViewController: UIViewController, UITableViewDataSource, UITable
         guard !searchText.isEmpty else{
             currentBuskerArray = buskerArray
           tab2BuskerTable.reloadData()
-            return
-        }
+            retucontains  }
         currentBuskerArray = buskerArray.filter({busker -> Bool in
             busker.name.lowercased().contains(searchText.lowercased())
             
