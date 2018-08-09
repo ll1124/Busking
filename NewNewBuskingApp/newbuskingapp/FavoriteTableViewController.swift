@@ -53,5 +53,9 @@ class FavoriteTableViewController: UITableViewController {
         return data.count
     }
 
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        <#code#>
+    }
 }
 
