@@ -17,6 +17,9 @@ class Tab2BuskerTableViewCell: UITableViewCell {
     @IBOutlet weak var HeartCount: UILabel!
     @IBOutlet weak var BuskerImage: UIImageView!
     
+    @IBAction func HeartClick(_ sender: Any) {
+        
+    }
     
     
     

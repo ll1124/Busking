@@ -455,9 +455,13 @@
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OVy-wb-3mu">
-                                                    <rect key="frame" x="323.5" y="26" width="30.5" height="30"/>
+                                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OVy-wb-3mu">
+                                                    <rect key="frame" x="323.5" y="26" width="30.5" height="34"/>
                                                     <state key="normal" title="💜"/>
+                                                    <state key="selected" title="🖤"/>
+                                                    <connections>
+                                                        <action selector="HeartClick:" destination="BKN-Ln-q3C" eventType="touchUpInside" id="QIJ-Nd-Ixb"/>
+                                                    </connections>
                                                 </button>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="num" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YKk-Q9-mIq">
                                                     <rect key="frame" x="326" y="54" width="34" height="21"/>
