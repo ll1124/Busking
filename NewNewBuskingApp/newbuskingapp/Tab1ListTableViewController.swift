@@ -17,7 +17,6 @@ struct PlayInfo{
 
 }
 
-
 var plays = [
     PlayInfo(time: "12:00", place : "홍대 앞 패션 거리", artist: "김희준", heartCount: 11),
     PlayInfo(time: "12:30", place : "홍대 걷고싶은 거리", artist: "GG", heartCount: 15),
