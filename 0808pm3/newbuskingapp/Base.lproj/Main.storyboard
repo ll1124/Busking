@@ -347,7 +347,7 @@
             <objects>
                 <tableViewController id="fXx-E8-9G6" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="BMf-Tg-vdX">
-                        <rect key="frame" x="0.0" y="0.0" width="378" height="601"/>
+                        <rect key="frame" x="0.0" y="0.0" width="378" height="589"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <prototypes>
@@ -368,7 +368,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="aVv-AW-p9w" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="346" y="2033"/>
+            <point key="canvasLocation" x="48" y="1988"/>
         </scene>
         <!--버스커-->
         <scene sceneID="Ysh-7Z-Fr3">
@@ -466,7 +466,7 @@
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <state key="normal" title="Button"/>
                                                 </button>
-                                                <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" adjustsImageWhenHighlighted="NO" adjustsImageWhenDisabled="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OVy-wb-3mu" customClass="heartClick" customModule="newbuskingapp" customModuleProvider="target">
+                                                <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" adjustsImageWhenHighlighted="NO" adjustsImageWhenDisabled="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OVy-wb-3mu" customClass="ToggleButton" customModule="newbuskingapp" customModuleProvider="target">
                                                     <rect key="frame" x="319" y="23" width="35" height="35"/>
                                                     <constraints>
                                                         <constraint firstAttribute="width" constant="35" id="coS-yJ-0WA"/>
@@ -537,18 +537,11 @@
         <!--내 페이지-->
         <scene sceneID="PnP-ww-hkk">
             <objects>
-                <viewController id="aHp-6J-Fz4" sceneMemberID="viewController">
+                <viewController id="aHp-6J-Fz4" customClass="Tab3MyPageViewController" customModule="newbuskingapp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="3kp-K7-SfT">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="JlX-ri-RJR">
-                                <rect key="frame" x="25" y="87" width="90" height="90"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="90" id="YQI-nw-jdv"/>
-                                    <constraint firstAttribute="height" constant="90" id="jtu-vo-HIp"/>
-                                </constraints>
-                            </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="이름" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JzK-gi-UKC">
                                 <rect key="frame" x="114" y="122" width="42" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -577,16 +570,8 @@
                                     <constraint firstAttribute="width" constant="30" id="8xr-Mx-kkF"/>
                                 </constraints>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="swc-D1-3Qi">
-                                <rect key="frame" x="0.0" y="185" width="185" height="80"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="185" id="Ccf-mv-t7a"/>
-                                    <constraint firstAttribute="height" constant="80" id="aBH-VX-hBb"/>
-                                </constraints>
-                                <state key="normal" title="follower"/>
-                            </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="05" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="u1D-aX-Xhv">
-                                <rect key="frame" x="82" y="234" width="21" height="21"/>
+                                <rect key="frame" x="94" y="245" width="21" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
@@ -607,7 +592,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <containerView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="o8C-K3-Lrk">
-                                <rect key="frame" x="0.0" y="293" width="378" height="601"/>
+                                <rect key="frame" x="0.0" y="293" width="378" height="589"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
                                 <connections>
                                     <segue destination="fXx-E8-9G6" kind="embed" id="BLH-3W-fet"/>
@@ -620,6 +605,21 @@
                                     <constraint firstAttribute="width" constant="185" id="ucx-47-UKE"/>
                                 </constraints>
                                 <state key="normal" title="following"/>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="JlX-ri-RJR">
+                                <rect key="frame" x="16" y="89" width="90" height="90"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="90" id="YQI-nw-jdv"/>
+                                    <constraint firstAttribute="height" constant="90" id="jtu-vo-HIp"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="swc-D1-3Qi">
+                                <rect key="frame" x="12" y="188" width="185" height="80"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="185" id="Ccf-mv-t7a"/>
+                                    <constraint firstAttribute="height" constant="80" id="aBH-VX-hBb"/>
+                                </constraints>
+                                <state key="normal" title="follower"/>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -638,10 +638,18 @@
                         <viewLayoutGuide key="safeArea" id="agI-0A-9Rn"/>
                     </view>
                     <navigationItem key="navigationItem" title="내 페이지" id="G8t-le-7TP"/>
+                    <connections>
+                        <outlet property="followerLabel" destination="u1D-aX-Xhv" id="Kth-ED-rWx"/>
+                        <outlet property="followingLabel" destination="j0P-Lx-scZ" id="9Si-gQ-oiD"/>
+                        <outlet property="idLabel" destination="FSz-8J-4qs" id="m2k-iv-KvP"/>
+                        <outlet property="introduceLabel" destination="cQQ-VC-5I7" id="dtg-ZL-wcx"/>
+                        <outlet property="nameLabel" destination="JzK-gi-UKC" id="mzJ-2A-Uyf"/>
+                        <outlet property="profileImage" destination="JlX-ri-RJR" id="ewH-xb-BDy"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="NbH-QO-ahL" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="77.599999999999994" y="1226.5367316341831"/>
+            <point key="canvasLocation" x="45.600000000000001" y="1238.2308845577213"/>
         </scene>
         <!--Tab1 List Table View Controller-->
         <scene sceneID="tN6-Kq-JUg">

@@ -14,6 +14,19 @@
 		C282EA5D211814E7009409F2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C282EA5B211814E7009409F2 /* LaunchScreen.storyboard */; };
 		C282EA6921181B0B009409F2 /* tab1UIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C282EA6821181B0B009409F2 /* tab1UIViewController.swift */; };
 		C282EA6B21181BAE009409F2 /* Tab1TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C282EA6A21181BAE009409F2 /* Tab1TableViewCell.swift */; };
+		C2A2EAE2211D70B400C00107 /* CHContentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2A2EAD6211D70B400C00107 /* CHContentViewController.swift */; };
+		C2A2EAE3211D70B400C00107 /* CHControls.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2A2EAD7211D70B400C00107 /* CHControls.swift */; };
+		C2A2EAE4211D70B400C00107 /* CHModalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2A2EAD8211D70B400C00107 /* CHModalViewController.swift */; };
+		C2A2EAE5211D70B400C00107 /* CHPagingScrollViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2A2EAD9211D70B400C00107 /* CHPagingScrollViewController.swift */; };
+		C2A2EAE6211D70B400C00107 /* CHPickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2A2EADA211D70B400C00107 /* CHPickerViewController.swift */; };
+		C2A2EAE7211D70B400C00107 /* CHTableViewControllers.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2A2EADB211D70B400C00107 /* CHTableViewControllers.swift */; };
+		C2A2EAE8211D70B400C00107 /* CHViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2A2EADC211D70B400C00107 /* CHViews.swift */; };
+		C2A2EAE9211D70B400C00107 /* DrawingCanvasView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2A2EADD211D70B400C00107 /* DrawingCanvasView.swift */; };
+		C2A2EAEA211D70B400C00107 /* FIlters.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2A2EADE211D70B400C00107 /* FIlters.swift */; };
+		C2A2EAEB211D70B400C00107 /* NavigationControllers.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2A2EADF211D70B400C00107 /* NavigationControllers.swift */; };
+		C2A2EAEC211D70B400C00107 /* RecordButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2A2EAE0211D70B400C00107 /* RecordButton.swift */; };
+		C2A2EAED211D70B400C00107 /* SwipeActionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2A2EAE1211D70B400C00107 /* SwipeActionTableViewCell.swift */; };
+		C2A2EAEF211D82FE00C00107 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C2A2EAEE211D82FE00C00107 /* GoogleService-Info.plist */; };
 		C2C1673221197F6700952595 /* Tab1ListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2C1673121197F6700952595 /* Tab1ListTableViewController.swift */; };
 		C2C1673421198CD200952595 /* Tab3TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2C1673321198CD200952595 /* Tab3TableViewController.swift */; };
 		C2F7CFFC211AE9F70024A4AD /* Tab2BuskerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2F7CFFB211AE9F70024A4AD /* Tab2BuskerViewController.swift */; };
@@ -30,6 +43,19 @@
 		C282EA5E211814E7009409F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C282EA6821181B0B009409F2 /* tab1UIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tab1UIViewController.swift; sourceTree = "<group>"; };
 		C282EA6A21181BAE009409F2 /* Tab1TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tab1TableViewCell.swift; sourceTree = "<group>"; };
+		C2A2EAD6211D70B400C00107 /* CHContentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CHContentViewController.swift; sourceTree = "<group>"; };
+		C2A2EAD7211D70B400C00107 /* CHControls.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CHControls.swift; sourceTree = "<group>"; };
+		C2A2EAD8211D70B400C00107 /* CHModalViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CHModalViewController.swift; sourceTree = "<group>"; };
+		C2A2EAD9211D70B400C00107 /* CHPagingScrollViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CHPagingScrollViewController.swift; sourceTree = "<group>"; };
+		C2A2EADA211D70B400C00107 /* CHPickerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CHPickerViewController.swift; sourceTree = "<group>"; };
+		C2A2EADB211D70B400C00107 /* CHTableViewControllers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CHTableViewControllers.swift; sourceTree = "<group>"; };
+		C2A2EADC211D70B400C00107 /* CHViews.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CHViews.swift; sourceTree = "<group>"; };
+		C2A2EADD211D70B400C00107 /* DrawingCanvasView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DrawingCanvasView.swift; sourceTree = "<group>"; };
+		C2A2EADE211D70B400C00107 /* FIlters.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FIlters.swift; sourceTree = "<group>"; };
+		C2A2EADF211D70B400C00107 /* NavigationControllers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavigationControllers.swift; sourceTree = "<group>"; };
+		C2A2EAE0211D70B400C00107 /* RecordButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecordButton.swift; sourceTree = "<group>"; };
+		C2A2EAE1211D70B400C00107 /* SwipeActionTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwipeActionTableViewCell.swift; sourceTree = "<group>"; };
+		C2A2EAEE211D82FE00C00107 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		C2C1673121197F6700952595 /* Tab1ListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tab1ListTableViewController.swift; sourceTree = "<group>"; };
 		C2C1673321198CD200952595 /* Tab3TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tab3TableViewController.swift; sourceTree = "<group>"; };
 		C2F7CFFB211AE9F70024A4AD /* Tab2BuskerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tab2BuskerViewController.swift; sourceTree = "<group>"; };
@@ -50,6 +76,7 @@
 		C282EA46211814E6009409F2 = {
 			isa = PBXGroup;
 			children = (
+				C2A2EAD5211D70B400C00107 /* PilotPlant  */,
 				C282EA51211814E7009409F2 /* newbuskingapp */,
 				C282EA50211814E7009409F2 /* Products */,
 			);
@@ -66,6 +93,7 @@
 		C282EA51211814E7009409F2 /* newbuskingapp */ = {
 			isa = PBXGroup;
 			children = (
+				C2A2EAEE211D82FE00C00107 /* GoogleService-Info.plist */,
 				C25D8760211C2E73002A8FB6 /* DataCenter.swift */,
 				C282EA52211814E7009409F2 /* AppDelegate.swift */,
 				C282EA56211814E7009409F2 /* Main.storyboard */,
@@ -80,6 +108,25 @@
 				C282EA5E211814E7009409F2 /* Info.plist */,
 			);
 			path = newbuskingapp;
+			sourceTree = "<group>";
+		};
+		C2A2EAD5211D70B400C00107 /* PilotPlant  */ = {
+			isa = PBXGroup;
+			children = (
+				C2A2EAD6211D70B400C00107 /* CHContentViewController.swift */,
+				C2A2EAD7211D70B400C00107 /* CHControls.swift */,
+				C2A2EAD8211D70B400C00107 /* CHModalViewController.swift */,
+				C2A2EAD9211D70B400C00107 /* CHPagingScrollViewController.swift */,
+				C2A2EADA211D70B400C00107 /* CHPickerViewController.swift */,
+				C2A2EADB211D70B400C00107 /* CHTableViewControllers.swift */,
+				C2A2EADC211D70B400C00107 /* CHViews.swift */,
+				C2A2EADD211D70B400C00107 /* DrawingCanvasView.swift */,
+				C2A2EADE211D70B400C00107 /* FIlters.swift */,
+				C2A2EADF211D70B400C00107 /* NavigationControllers.swift */,
+				C2A2EAE0211D70B400C00107 /* RecordButton.swift */,
+				C2A2EAE1211D70B400C00107 /* SwipeActionTableViewCell.swift */,
+			);
+			path = "PilotPlant ";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -142,6 +189,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C282EA5D211814E7009409F2 /* LaunchScreen.storyboard in Resources */,
+				C2A2EAEF211D82FE00C00107 /* GoogleService-Info.plist in Resources */,
 				C282EA5A211814E7009409F2 /* Assets.xcassets in Resources */,
 				C282EA58211814E7009409F2 /* Main.storyboard in Resources */,
 			);
@@ -155,13 +203,25 @@
 			buildActionMask = 2147483647;
 			files = (
 				C282EA6B21181BAE009409F2 /* Tab1TableViewCell.swift in Sources */,
+				C2A2EAE6211D70B400C00107 /* CHPickerViewController.swift in Sources */,
 				C2C1673421198CD200952595 /* Tab3TableViewController.swift in Sources */,
+				C2A2EAE3211D70B400C00107 /* CHControls.swift in Sources */,
+				C2A2EAE7211D70B400C00107 /* CHTableViewControllers.swift in Sources */,
+				C2A2EAEA211D70B400C00107 /* FIlters.swift in Sources */,
+				C2A2EAE9211D70B400C00107 /* DrawingCanvasView.swift in Sources */,
+				C2A2EAEC211D70B400C00107 /* RecordButton.swift in Sources */,
 				C282EA6921181B0B009409F2 /* tab1UIViewController.swift in Sources */,
+				C2A2EAE5211D70B400C00107 /* CHPagingScrollViewController.swift in Sources */,
+				C2A2EAE8211D70B400C00107 /* CHViews.swift in Sources */,
+				C2A2EAE2211D70B400C00107 /* CHContentViewController.swift in Sources */,
 				C2F7CFFE211AEAD40024A4AD /* Tab2BuskerTableViewCell.swift in Sources */,
 				C282EA53211814E7009409F2 /* AppDelegate.swift in Sources */,
+				C2A2EAED211D70B400C00107 /* SwipeActionTableViewCell.swift in Sources */,
+				C2A2EAEB211D70B400C00107 /* NavigationControllers.swift in Sources */,
 				C25D8761211C2E73002A8FB6 /* DataCenter.swift in Sources */,
 				C2F7CFFC211AE9F70024A4AD /* Tab2BuskerViewController.swift in Sources */,
 				C2C1673221197F6700952595 /* Tab1ListTableViewController.swift in Sources */,
+				C2A2EAE4211D70B400C00107 /* CHModalViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -299,10 +359,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = DLSRBZB9MB;
+				DEVELOPMENT_TEAM = 9JP72D3X88;
 				INFOPLIST_FILE = newbuskingapp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = kr.ac.korea..newbuskingapp;
+				PRODUCT_BUNDLE_IDENTIFIER = iphone.busking;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -314,10 +374,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = DLSRBZB9MB;
+				DEVELOPMENT_TEAM = 9JP72D3X88;
 				INFOPLIST_FILE = newbuskingapp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = kr.ac.korea..newbuskingapp;
+				PRODUCT_BUNDLE_IDENTIFIER = iphone.busking;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";

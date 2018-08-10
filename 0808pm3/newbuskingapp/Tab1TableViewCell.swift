@@ -17,10 +17,6 @@ class Tab1TableViewCell: UITableViewCell {
     
     
     
-    
-    
-    
-    
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
