@@ -25,13 +25,16 @@ class Tab2BuskerViewController: UIViewController, UITableViewDataSource, UITable
     
     private func setUpBuskers(){
         
-        let cell = tableView.dequeueReusableCell(withIdentifier: "Cell", for: indexPath) as! Tab2BuskerTableViewCell
-        let item = favorites[indexPath.row]
+        buskerArray.append(BuskerInfo(name:"김안경",hashtag:"#Solo, #Ballad", heartCount:10, image:"10cm"))
+        buskerArray.append(BuskerInfo(name:"김고양",hashtag:"#Solo, #Piano", heartCount:10, image:"cat"))
+        buskerArray.append(BuskerInfo(name:"GU",hashtag:"#Duet, #Guitar", heartCount:10, image: "gu"))
+        buskerArray.append(BuskerInfo(name:"정준일",hashtag:"#Solo, #Ballad", heartCount:10, image: "jung"))
+        buskerArray.append(BuskerInfo(name:"OH",hashtag:"#Band", heartCount:10, image:"oh"))
+        buskerArray.append(BuskerInfo(name:"박로이",hashtag:"#Solo, #Folk", heartCount:10, image: "roy"))
+        buskerArray.append(BuskerInfo(name:"선우정",hashtag:"Piano, #Ballad", heartCount:10, image: "sun"))
+        buskerArray.append(BuskerInfo(name:"노서우",hashtag:"#Guitar, #Dance", heartCount:10, image: "profile"))
         
-        cell.Name.text = item.name
-        cell.Hashtag.text = item.hashtag
-        cell.HeartCount.text = "\(item.heartcount)"
-        cell.BuskerImage.image = item.profileImage
+        currentBuskerArray = buskerArray
         
     }
     //search
@@ -106,33 +109,5 @@ class Tab2BuskerViewController: UIViewController, UITableViewDataSource, UITable
 //    }
     
     //heartfunction
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-//
-//    override func didReceiveMemoryWarning() {
-//        super.didReceiveMemoryWarning()
-//        // Dispose of any resources that can be recreated.
-//    }
-//
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
-    }
-    */
 
 }

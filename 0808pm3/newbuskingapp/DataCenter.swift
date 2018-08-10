@@ -29,7 +29,7 @@ var plays = [
 struct Busker {
     var name: String
     var hashtag: String
-    var heartcount: Int
+    var heartCount: Int
     var profileImage: String
 }
 
@@ -56,15 +56,15 @@ var singasong = Hashtag(hashtags: "싱어송라이터")
 
 var buskerList: [Busker] = []
 
-var jji = Busker(name: "정준일", hashtag: "#Piano #Ballad #Solo #이별노래", heartcount: 83, profileImage: "jung")
-var gu = Busker(name: "길구봉구", hashtag: "#Duo #Folk #Ballad", heartcount: 105, profileImage: "gu")
-var roy = Busker(name: "김로이", hashtag: "Ballad #Drama #OST", heartcount: 345, profileImage: "roy")
-var oh = Busker(name: "혁오", hashtag: "인디 #Band #독특한 음색", heartcount: 22, profileImage: "oh")
-var sim = Busker(name: "심재면", hashtag: "#Guitar #Solo", heartcount: 3, profileImage: "profile")
-var cat = Busker(name: "김고양", hashtag: "#Piano #Ballad #Solo", heartcount: 823, profileImage: "cat")
-var glasses = Busker(name: "김안경", hashtag: "Folk #Ballad #Solo #Dance", heartcount: 605, profileImage: "10cm")
-var sun = Busker(name: "선우정", hashtag: "#싱어송라이터 #독특한 가사", heartcount: 234, profileImage: "sun")
-var roh = Busker(name: "노서우", hashtag: "#싱어송라이터 #Guitar", heartcount: 143, profileImage: "profile")
+var jji = Busker(name: "정준일", hashtag: "#Piano #Ballad #Solo #이별노래", heartCount: 83, profileImage: "jung")
+var gu = Busker(name: "길구봉구", hashtag: "#Duo #Folk #Ballad", heartCount: 105, profileImage: "gu")
+var roy = Busker(name: "김로이", hashtag: "Ballad #Drama #OST", heartCount: 345, profileImage: "roy")
+var oh = Busker(name: "혁오", hashtag: "인디 #Band #독특한 음색", heartCount: 22, profileImage: "oh")
+var sim = Busker(name: "심재면", hashtag: "#Guitar #Solo", heartCount: 3, profileImage: "profile")
+var cat = Busker(name: "김고양", hashtag: "#Piano #Ballad #Solo", heartCount: 823, profileImage: "cat")
+var glasses = Busker(name: "김안경", hashtag: "Folk #Ballad #Solo #Dance", heartCount: 605, profileImage: "10cm")
+var sun = Busker(name: "선우정", hashtag: "#싱어송라이터 #독특한 가사", heartCount: 234, profileImage: "sun")
+var roh = Busker(name: "노서우", hashtag: "#싱어송라이터 #Guitar", heartCount: 143, profileImage: "profile")
 
 var favorites = [cat, glasses, roy, sun, roh]
 
