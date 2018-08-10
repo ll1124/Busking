@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2267D4F4B17477584E226B0C /* Pods_newbuskingapp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 157616CC36DBF6AFEE5152F5 /* Pods_newbuskingapp.framework */; };
 		C25D8761211C2E73002A8FB6 /* DataCenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = C25D8760211C2E73002A8FB6 /* DataCenter.swift */; };
 		C282EA53211814E7009409F2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C282EA52211814E7009409F2 /* AppDelegate.swift */; };
 		C282EA58211814E7009409F2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C282EA56211814E7009409F2 /* Main.storyboard */; };
@@ -27,6 +28,7 @@
 		C2A2EAEC211D70B400C00107 /* RecordButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2A2EAE0211D70B400C00107 /* RecordButton.swift */; };
 		C2A2EAED211D70B400C00107 /* SwipeActionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2A2EAE1211D70B400C00107 /* SwipeActionTableViewCell.swift */; };
 		C2A2EAEF211D82FE00C00107 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C2A2EAEE211D82FE00C00107 /* GoogleService-Info.plist */; };
+		C2A2EAF1211D930E00C00107 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2A2EAF0211D930E00C00107 /* RegisterViewController.swift */; };
 		C2C1673221197F6700952595 /* Tab1ListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2C1673121197F6700952595 /* Tab1ListTableViewController.swift */; };
 		C2C1673421198CD200952595 /* Tab3TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2C1673321198CD200952595 /* Tab3TableViewController.swift */; };
 		C2F7CFFC211AE9F70024A4AD /* Tab2BuskerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2F7CFFB211AE9F70024A4AD /* Tab2BuskerViewController.swift */; };
@@ -34,6 +36,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		157616CC36DBF6AFEE5152F5 /* Pods_newbuskingapp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_newbuskingapp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		663554BA04FF0B1BCDF44DDD /* Pods-newbuskingapp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-newbuskingapp.release.xcconfig"; path = "Pods/Target Support Files/Pods-newbuskingapp/Pods-newbuskingapp.release.xcconfig"; sourceTree = "<group>"; };
+		99868F9B9A0D40DCA2F135E3 /* Pods-newbuskingapp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-newbuskingapp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-newbuskingapp/Pods-newbuskingapp.debug.xcconfig"; sourceTree = "<group>"; };
 		C25D8760211C2E73002A8FB6 /* DataCenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataCenter.swift; sourceTree = "<group>"; };
 		C282EA4F211814E7009409F2 /* newbuskingapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = newbuskingapp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C282EA52211814E7009409F2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -56,6 +61,7 @@
 		C2A2EAE0211D70B400C00107 /* RecordButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecordButton.swift; sourceTree = "<group>"; };
 		C2A2EAE1211D70B400C00107 /* SwipeActionTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwipeActionTableViewCell.swift; sourceTree = "<group>"; };
 		C2A2EAEE211D82FE00C00107 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		C2A2EAF0211D930E00C00107 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
 		C2C1673121197F6700952595 /* Tab1ListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tab1ListTableViewController.swift; sourceTree = "<group>"; };
 		C2C1673321198CD200952595 /* Tab3TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tab3TableViewController.swift; sourceTree = "<group>"; };
 		C2F7CFFB211AE9F70024A4AD /* Tab2BuskerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tab2BuskerViewController.swift; sourceTree = "<group>"; };
@@ -67,18 +73,38 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2267D4F4B17477584E226B0C /* Pods_newbuskingapp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2095DAF48820218C365BC4AC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				157616CC36DBF6AFEE5152F5 /* Pods_newbuskingapp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		94315E3BD752B5E8BA668CC2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				99868F9B9A0D40DCA2F135E3 /* Pods-newbuskingapp.debug.xcconfig */,
+				663554BA04FF0B1BCDF44DDD /* Pods-newbuskingapp.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		C282EA46211814E6009409F2 = {
 			isa = PBXGroup;
 			children = (
 				C2A2EAD5211D70B400C00107 /* PilotPlant  */,
 				C282EA51211814E7009409F2 /* newbuskingapp */,
 				C282EA50211814E7009409F2 /* Products */,
+				94315E3BD752B5E8BA668CC2 /* Pods */,
+				2095DAF48820218C365BC4AC /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -100,6 +126,7 @@
 				C282EA6821181B0B009409F2 /* tab1UIViewController.swift */,
 				C2C1673121197F6700952595 /* Tab1ListTableViewController.swift */,
 				C282EA6A21181BAE009409F2 /* Tab1TableViewCell.swift */,
+				C2A2EAF0211D930E00C00107 /* RegisterViewController.swift */,
 				C2F7CFFD211AEAD40024A4AD /* Tab2BuskerTableViewCell.swift */,
 				C2F7CFFB211AE9F70024A4AD /* Tab2BuskerViewController.swift */,
 				C282EA59211814E7009409F2 /* Assets.xcassets */,
@@ -136,9 +163,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C282EA61211814E7009409F2 /* Build configuration list for PBXNativeTarget "newbuskingapp" */;
 			buildPhases = (
+				C5F5E25BB7DF6EB283318D30 /* [CP] Check Pods Manifest.lock */,
 				C282EA4B211814E7009409F2 /* Sources */,
 				C282EA4C211814E7009409F2 /* Frameworks */,
 				C282EA4D211814E7009409F2 /* Resources */,
+				5C4730A22B52E4DF0E50984A /* [CP] Embed Pods Frameworks */,
+				BB35129BDF594795A465E15A /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -197,6 +227,66 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		5C4730A22B52E4DF0E50984A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-newbuskingapp/Pods-newbuskingapp-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-newbuskingapp/Pods-newbuskingapp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BB35129BDF594795A465E15A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-newbuskingapp/Pods-newbuskingapp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C5F5E25BB7DF6EB283318D30 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-newbuskingapp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		C282EA4B211814E7009409F2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -211,6 +301,7 @@
 				C2A2EAE9211D70B400C00107 /* DrawingCanvasView.swift in Sources */,
 				C2A2EAEC211D70B400C00107 /* RecordButton.swift in Sources */,
 				C282EA6921181B0B009409F2 /* tab1UIViewController.swift in Sources */,
+				C2A2EAF1211D930E00C00107 /* RegisterViewController.swift in Sources */,
 				C2A2EAE5211D70B400C00107 /* CHPagingScrollViewController.swift in Sources */,
 				C2A2EAE8211D70B400C00107 /* CHViews.swift in Sources */,
 				C2A2EAE2211D70B400C00107 /* CHContentViewController.swift in Sources */,
@@ -356,6 +447,7 @@
 		};
 		C282EA62211814E7009409F2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 99868F9B9A0D40DCA2F135E3 /* Pods-newbuskingapp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -371,6 +463,7 @@
 		};
 		C282EA63211814E7009409F2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 663554BA04FF0B1BCDF44DDD /* Pods-newbuskingapp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
