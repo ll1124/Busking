@@ -24,17 +24,15 @@ class Tab2BuskerViewController: UIViewController, UITableViewDataSource, UITable
     }
     
     private func setUpBuskers(){
-        buskerArray.append(BuskerInfo(name:"김안경",hashtag:"#Solo, #Ballad", heartCount:10, image:"10cm"))
-        buskerArray.append(BuskerInfo(name:"김고양",hashtag:"#Solo, #Piano", heartCount:10, image:"cat"))
-        buskerArray.append(BuskerInfo(name:"GU",hashtag:"#Duet, #Guitar", heartCount:10, image: "gu"))
-        buskerArray.append(BuskerInfo(name:"정준일",hashtag:"#Solo, #Ballad", heartCount:10, image: "jung"))
-        buskerArray.append(BuskerInfo(name:"OH",hashtag:"#Band", heartCount:10, image:"oh"))
-        buskerArray.append(BuskerInfo(name:"박로이",hashtag:"#Solo, #Folk", heartCount:10, image: "roy"))
-        buskerArray.append(BuskerInfo(name:"선우정",hashtag:"Piano, #Ballad", heartCount:10, image: "sun"))
-        buskerArray.append(BuskerInfo(name:"노서우",hashtag:"#Guitar, #Dance", heartCount:10, image: "profile"))
         
-        currentBuskerArray = buskerArray
-
+        let cell = tableView.dequeueReusableCell(withIdentifier: "Cell", for: indexPath) as! Tab2BuskerTableViewCell
+        let item = favorites[indexPath.row]
+        
+        cell.Name.text = item.name
+        cell.Hashtag.text = item.hashtag
+        cell.HeartCount.text = "\(item.heartcount)"
+        cell.BuskerImage.image = item.profileImage
+        
     }
     //search
     private func setUpSearchBar(){
@@ -71,7 +69,8 @@ class Tab2BuskerViewController: UIViewController, UITableViewDataSource, UITable
         guard !searchText.isEmpty else{
             currentBuskerArray = buskerArray
           tab2BuskerTable.reloadData()
-            retucontains  }
+            return
+        }
         currentBuskerArray = buskerArray.filter({busker -> Bool in
             busker.name.lowercased().contains(searchText.lowercased())
             
