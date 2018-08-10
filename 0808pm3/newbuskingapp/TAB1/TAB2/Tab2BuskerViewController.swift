@@ -7,10 +7,12 @@
 //
 
 import UIKit
+import Firebase
 
 class Tab2BuskerViewController: UIViewController, UITableViewDataSource, UITableViewDelegate, UISearchBarDelegate{
   
     @IBOutlet weak var tab2BuskerTable: UITableView!
+    
     @IBOutlet weak var tab2SearchBar: UISearchBar!
    //배열
     var buskerArray = [BuskerInfo]() //to setUpBuskers
@@ -20,6 +22,11 @@ class Tab2BuskerViewController: UIViewController, UITableViewDataSource, UITable
         setUpBuskers()
         setUpSearchBar()
         
+//
+//        func retrieveusers(){
+//            let ref = FIRDatabase.database().
+//        }
+//
 
         // Do any additional setup after loading the view.
     }
