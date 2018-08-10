@@ -436,7 +436,7 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Gv3-xk-TPK">
-                                                    <rect key="frame" x="10" y="10" width="75.5" height="75.5"/>
+                                                    <rect key="frame" x="10" y="10" width="76" height="76"/>
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="75.5" id="25K-UF-ZhG"/>
                                                         <constraint firstAttribute="width" constant="75.5" id="6vH-e1-ycE"/>
@@ -444,7 +444,7 @@
                                                     </constraints>
                                                 </imageView>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="이름" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dDf-5n-TX2">
-                                                    <rect key="frame" x="93" y="16" width="29.5" height="21"/>
+                                                    <rect key="frame" x="93" y="16" width="30" height="21"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
@@ -455,37 +455,48 @@
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OVy-wb-3mu">
-                                                    <rect key="frame" x="323.5" y="26" width="30.5" height="34"/>
-                                                    <state key="normal" title="💜"/>
-                                                    <state key="selected" title="🖤"/>
-                                                    <connections>
-                                                        <action selector="HeartClick:" destination="BKN-Ln-q3C" eventType="touchUpInside" id="QIJ-Nd-Ixb"/>
-                                                    </connections>
-                                                </button>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="num" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YKk-Q9-mIq">
-                                                    <rect key="frame" x="326" y="54" width="34" height="21"/>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="00" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YKk-Q9-mIq">
+                                                    <rect key="frame" x="325" y="54" width="35" height="21"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
+                                                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8kk-My-BrU">
+                                                    <rect key="frame" x="240" y="23" width="46" height="30"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <state key="normal" title="Button"/>
+                                                </button>
+                                                <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" adjustsImageWhenHighlighted="NO" adjustsImageWhenDisabled="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OVy-wb-3mu" customClass="heartClick" customModule="newbuskingapp" customModuleProvider="target">
+                                                    <rect key="frame" x="319" y="23" width="35" height="35"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="width" constant="35" id="coS-yJ-0WA"/>
+                                                    </constraints>
+                                                    <state key="normal" image="blackheart"/>
+                                                    <state key="selected" image="heart"/>
+                                                    <connections>
+                                                        <action selector="HeartClick:" destination="BKN-Ln-q3C" eventType="touchUpInside" id="8zZ-oj-1SK"/>
+                                                    </connections>
+                                                </button>
                                             </subviews>
                                             <constraints>
-                                                <constraint firstItem="YKk-Q9-mIq" firstAttribute="top" secondItem="85c-RQ-3gw" secondAttribute="topMargin" constant="43" id="8d1-Dq-DPi"/>
+                                                <constraint firstAttribute="trailingMargin" secondItem="YKk-Q9-mIq" secondAttribute="trailing" constant="3" id="5KE-He-XxS"/>
+                                                <constraint firstAttribute="trailingMargin" secondItem="OVy-wb-3mu" secondAttribute="trailing" constant="3" id="E19-VW-nys"/>
                                                 <constraint firstItem="Fac-2B-Ndb" firstAttribute="leading" secondItem="Gv3-xk-TPK" secondAttribute="trailing" constant="7.5" id="Ex2-rz-LZS"/>
                                                 <constraint firstItem="Fac-2B-Ndb" firstAttribute="top" secondItem="dDf-5n-TX2" secondAttribute="bottom" constant="17" id="F5k-Rp-sfR"/>
                                                 <constraint firstItem="Gv3-xk-TPK" firstAttribute="top" secondItem="85c-RQ-3gw" secondAttribute="top" constant="10" id="Gg3-S2-suf"/>
-                                                <constraint firstItem="OVy-wb-3mu" firstAttribute="top" secondItem="85c-RQ-3gw" secondAttribute="topMargin" constant="15" id="Mwq-g1-GpN"/>
-                                                <constraint firstAttribute="trailingMargin" secondItem="YKk-Q9-mIq" secondAttribute="trailing" id="Sdx-Vq-Qwe"/>
+                                                <constraint firstAttribute="trailingMargin" secondItem="OVy-wb-3mu" secondAttribute="trailing" constant="3" id="GsV-pH-LPR"/>
+                                                <constraint firstAttribute="trailingMargin" relation="greaterThanOrEqual" secondItem="YKk-Q9-mIq" secondAttribute="trailing" id="Sdx-Vq-Qwe"/>
                                                 <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="Fac-2B-Ndb" secondAttribute="trailing" constant="20" symbolic="YES" id="WDh-UR-BEC"/>
                                                 <constraint firstItem="YKk-Q9-mIq" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="85c-RQ-3gw" secondAttribute="leadingMargin" id="WNd-3L-vLO"/>
-                                                <constraint firstAttribute="trailingMargin" secondItem="OVy-wb-3mu" secondAttribute="trailing" constant="6" id="Xx0-g8-eqf"/>
+                                                <constraint firstItem="OVy-wb-3mu" firstAttribute="top" secondItem="85c-RQ-3gw" secondAttribute="topMargin" constant="15" id="Z7R-V0-Z0Y"/>
+                                                <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="dDf-5n-TX2" secondAttribute="trailing" constant="20" symbolic="YES" id="b2L-uJ-3LN"/>
+                                                <constraint firstAttribute="bottomMargin" secondItem="OVy-wb-3mu" secondAttribute="bottom" constant="24" id="eQt-nB-G7q"/>
+                                                <constraint firstItem="OVy-wb-3mu" firstAttribute="centerX" secondItem="YKk-Q9-mIq" secondAttribute="centerX" id="h5N-TO-aw0"/>
                                                 <constraint firstItem="Gv3-xk-TPK" firstAttribute="leading" secondItem="85c-RQ-3gw" secondAttribute="leading" constant="10" id="kPn-r9-Jf8"/>
                                                 <constraint firstAttribute="bottomMargin" secondItem="Fac-2B-Ndb" secondAttribute="bottom" constant="10" id="kow-lb-cdp"/>
                                                 <constraint firstAttribute="bottom" secondItem="Gv3-xk-TPK" secondAttribute="bottom" constant="10" id="kqF-QN-XcZ"/>
                                                 <constraint firstAttribute="bottomMargin" secondItem="YKk-Q9-mIq" secondAttribute="bottom" constant="10" id="tPz-53-6NL"/>
                                                 <constraint firstItem="dDf-5n-TX2" firstAttribute="top" secondItem="85c-RQ-3gw" secondAttribute="topMargin" constant="5" id="vMF-QX-dGd"/>
-                                                <constraint firstItem="OVy-wb-3mu" firstAttribute="leading" secondItem="dDf-5n-TX2" secondAttribute="trailing" constant="201" id="xy5-AF-MSy"/>
                                                 <constraint firstItem="dDf-5n-TX2" firstAttribute="leading" secondItem="Gv3-xk-TPK" secondAttribute="trailing" constant="7.5" id="yLQ-yq-zFN"/>
                                             </constraints>
                                         </tableViewCellContentView>
@@ -787,6 +798,7 @@
         </scene>
     </scenes>
     <resources>
+        <image name="blackheart" width="29" height="29"/>
         <image name="facebook" width="84" height="86"/>
         <image name="heart" width="100" height="100"/>
         <image name="icons8-male-user-64" width="32" height="32"/>

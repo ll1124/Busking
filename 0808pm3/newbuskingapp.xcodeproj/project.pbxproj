@@ -74,9 +74,9 @@
 				C282EA6A21181BAE009409F2 /* Tab1TableViewCell.swift */,
 				C2F7CFFD211AEAD40024A4AD /* Tab2BuskerTableViewCell.swift */,
 				C2F7CFFB211AE9F70024A4AD /* Tab2BuskerViewController.swift */,
-				C2C1673321198CD200952595 /* Tab3TableViewController.swift */,
 				C282EA59211814E7009409F2 /* Assets.xcassets */,
 				C282EA5B211814E7009409F2 /* LaunchScreen.storyboard */,
+				C2C1673321198CD200952595 /* Tab3TableViewController.swift */,
 				C282EA5E211814E7009409F2 /* Info.plist */,
 			);
 			path = newbuskingapp;

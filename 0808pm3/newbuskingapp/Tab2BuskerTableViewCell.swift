@@ -9,30 +9,41 @@
 import UIKit
 
 class Tab2BuskerTableViewCell: UITableViewCell {
+    
+    var heartInt = 0
 
 
     @IBOutlet weak var Name: UILabel!
     @IBOutlet weak var Hashtag: UILabel!
+    //heart
     @IBOutlet weak var HeartButton: UIButton!
     @IBOutlet weak var HeartCount: UILabel!
     @IBOutlet weak var BuskerImage: UIImageView!
+    @IBAction func HeartClick(_ sender: UIButton) {
+                if sender.currentImage == #imageLiteral(resourceName: "blackheart"){
+                    heartInt += 1
+                    HeartCount.text = String(heartInt)
+                }else{
+                    heartInt -= 1
+                }
+     
     
-    @IBAction func HeartClick(_ sender: Any) {
-        
-    }
     
     
-    
-    
-    override func awakeFromNib() {
+        func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
+            HeartCount.text = String(heartInt)
     }
 
-    override func setSelected(_ selected: Bool, animated: Bool) {
+    
+    
+    
+        func setSelected(_ selected: Bool, animated: Bool) {
         super.setSelected(selected, animated: animated)
 
         // Configure the view for the selected state
     }
 
+}
 }
