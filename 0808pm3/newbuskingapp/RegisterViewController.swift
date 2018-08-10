@@ -15,31 +15,31 @@ class RegisterViewController: UIViewController {
     @IBOutlet weak var time: UITextField!
     @IBOutlet weak var place: UITextField!
     @IBOutlet weak var hashtag: UITextField!
+    @IBOutlet weak var playintro: UITextView!
     
+    @IBAction func register(_ sender: Any) {
     
-    
-    override func viewDidLoad() {
-        super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
-    }
+        }
+    
+    
+
+override func viewDidLoad() {
+    super.viewDidLoad()
+    
+    // Do any additional setup after loading the view.
+}
+
+
+override func didReceiveMemoryWarning() {
+    super.didReceiveMemoryWarning()
+    // Dispose of any resources that can be recreated.
+}
 
     
     
     
-    
-    
-    
-    
-    
-    
-    
-    
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
-    
+
 
     /*
     // MARK: - Navigation
