@@ -179,9 +179,9 @@
                         <viewLayoutGuide key="safeArea" id="HcQ-fZ-27e"/>
                     </view>
                     <navigationItem key="navigationItem" title="공연목록" id="DKl-ED-hY0">
-                        <barButtonItem key="rightBarButtonItem" title="공연 등록" id="oe7-fc-LIy">
+                        <barButtonItem key="rightBarButtonItem" systemItem="compose" id="oe7-fc-LIy">
                             <connections>
-                                <segue destination="oDI-ew-WSs" kind="show" id="eu5-U3-P8U"/>
+                                <segue destination="oDI-ew-WSs" kind="show" id="5tO-Zy-A04"/>
                             </connections>
                         </barButtonItem>
                     </navigationItem>
@@ -254,16 +254,6 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="취소" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4S5-Il-xzk">
-                                <rect key="frame" x="148" y="582" width="30" height="21"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="21" id="OeM-Ul-FiD"/>
-                                    <constraint firstAttribute="width" constant="30" id="bwG-2M-wzr"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <color key="highlightedColor" red="1" green="0.19626127574075025" blue="0.19956406185276021" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                            </label>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="fFR-DF-Unr">
                                 <rect key="frame" x="88" y="94" width="250" height="30"/>
                                 <constraints>
@@ -273,6 +263,9 @@
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <action selector="place:" destination="Ex3-Vn-KgL" eventType="editingDidEnd" id="lhs-jK-yCb"/>
+                                </connections>
                             </textField>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="VJD-hl-7yG">
                                 <rect key="frame" x="88" y="140" width="250" height="30"/>
@@ -304,20 +297,12 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" text="공연 정보를 입력해주세요." textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="M9l-Ms-Qde">
-                                <rect key="frame" x="20" y="336" width="335" height="209"/>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" text="공연 정보를 입력해주세요." textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="M9l-Ms-Qde">
+                                <rect key="frame" x="24" y="336" width="335" height="209"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BCc-1Q-Wdg">
-                                <rect key="frame" x="186" y="577" width="30" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="등록"/>
-                                <connections>
-                                    <action selector="register:" destination="oDI-ew-WSs" eventType="touchUpInside" id="c0C-gg-LQs"/>
-                                </connections>
-                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
@@ -347,16 +332,19 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="jXs-td-iMg"/>
                     </view>
-                    <navigationItem key="navigationItem" title="공연등록" id="Aqh-Tt-Fgy"/>
+                    <navigationItem key="navigationItem" title="공연등록" id="Aqh-Tt-Fgy">
+                        <barButtonItem key="rightBarButtonItem" style="plain" systemItem="add" id="asW-mM-LRR"/>
+                    </navigationItem>
                     <connections>
-                        <outlet property="day" destination="fFR-DF-Unr" id="aTN-nf-oMd"/>
                         <outlet property="hashtag" destination="ZDf-Wz-rjm" id="Zgf-B6-7x2"/>
                         <outlet property="place" destination="951-YQ-H3e" id="BoA-9w-ydm"/>
                         <outlet property="playintro" destination="M9l-Ms-Qde" id="AS1-sH-LVn"/>
+                        <outlet property="textView" destination="M9l-Ms-Qde" id="Tw8-NK-8SY"/>
                         <outlet property="time" destination="VJD-hl-7yG" id="cUv-SL-lbH"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="bih-jN-doR" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <exit id="Ex3-Vn-KgL" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
             <point key="canvasLocation" x="-1111.2" y="1969.5652173913045"/>
         </scene>
@@ -373,7 +361,7 @@
                                 <rect key="frame" x="0.0" y="28" width="378" height="44"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="8au-Xt-zte" id="7BG-gk-P6Y">
-                                    <rect key="frame" x="0.0" y="0.0" width="378" height="43.5"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="378" height="43"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                 </tableViewCellContentView>
                             </tableViewCell>
@@ -450,7 +438,7 @@
                                         <rect key="frame" x="0.0" y="84" width="375" height="96"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="BKN-Ln-q3C" id="85c-RQ-3gw">
-                                            <rect key="frame" x="0.0" y="0.0" width="375" height="95.5"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="96"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Gv3-xk-TPK">
@@ -651,14 +639,6 @@
                         <viewLayoutGuide key="safeArea" id="agI-0A-9Rn"/>
                     </view>
                     <navigationItem key="navigationItem" title="내 페이지" id="G8t-le-7TP"/>
-                    <connections>
-                        <outlet property="followerLabel" destination="u1D-aX-Xhv" id="Kth-ED-rWx"/>
-                        <outlet property="followingLabel" destination="j0P-Lx-scZ" id="9Si-gQ-oiD"/>
-                        <outlet property="idLabel" destination="FSz-8J-4qs" id="m2k-iv-KvP"/>
-                        <outlet property="introduceLabel" destination="cQQ-VC-5I7" id="dtg-ZL-wcx"/>
-                        <outlet property="nameLabel" destination="JzK-gi-UKC" id="mzJ-2A-Uyf"/>
-                        <outlet property="profileImage" destination="JlX-ri-RJR" id="ewH-xb-BDy"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="NbH-QO-ahL" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -677,7 +657,7 @@
                                 <rect key="frame" x="0.0" y="28" width="375" height="45"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="yry-Xk-nU0" id="oTT-qp-LKS">
-                                    <rect key="frame" x="0.0" y="0.0" width="375" height="44.5"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="장소" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Koz-wT-hiw">
@@ -707,6 +687,9 @@
                                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                             <state key="normal" title="🖤"/>
                                             <state key="selected" title="💜"/>
+                                            <connections>
+                                                <action selector="click:" destination="Ctt-gS-tth" eventType="touchUpInside" id="tdD-Z4-8n2"/>
+                                            </connections>
                                         </button>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="시간" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QH5-jZ-OIN">
                                             <rect key="frame" x="21" y="13.5" width="26" height="18"/>
@@ -749,6 +732,7 @@
                     </tableView>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="GFr-73-WKv" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <exit id="Ctt-gS-tth" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
             <point key="canvasLocation" x="-2430" y="1763"/>
         </scene>

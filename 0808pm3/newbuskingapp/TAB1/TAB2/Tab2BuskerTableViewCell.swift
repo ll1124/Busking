@@ -7,9 +7,10 @@
 //
 
 import UIKit
+import FirebaseDatabase
 
 
-var heartInt = 0
+
     
     class Tab2BuskerTableViewCell: UITableViewCell {
     
@@ -24,24 +25,17 @@ var heartInt = 0
     
     @IBOutlet weak var BuskerImage: UIImageView!
     @IBAction func HeartClick(_ sender: UIButton) {
-        if sender.isSelected == true {
-            heartInt += 1
-            HeartCount.text = String(heartInt)
-        }else{
-            heartInt -= 1
-            HeartCount.text = String(heartInt)
+
         }
         
         
         
         
-        
-        
-    }
+
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
-        HeartCount.text = String(heartInt)
+   
     }
     
     

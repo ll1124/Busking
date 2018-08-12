@@ -7,27 +7,53 @@
 //
 
 import UIKit
-import Firebase
+import FirebaseDatabase
 
 class Tab2BuskerViewController: UIViewController, UITableViewDataSource, UITableViewDelegate, UISearchBarDelegate{
   
     @IBOutlet weak var tab2BuskerTable: UITableView!
     @IBOutlet weak var tab2SearchBar: UISearchBar!
-   //배열
+    
+    @IBAction func post(_ sender: Any) {
+    }
+    
+    var ref: DatabaseReference!
+    var databaseHandle : DatabaseHandle?
+    var heartInt = [Int]()
+    
     var buskerArray = [BuskerInfo]() //to setUpBuskers
     var currentBuskerArray = [BuskerInfo]() //update table
+    
+    
+    //ViewDidRoad 여기에
+
     override func viewDidLoad() {
         super.viewDidLoad()
         setUpBuskers()
         setUpSearchBar()
         
-//
-//        func retrieveusers(){
-//            let ref = FIRDatabase.database().
-//        }
-//
+       
+       ref = Database.database().reference()
+        
+        
+        
+        databaseHandle = ref?.child("HeartCount").observe(.childAdded, with: { (snapshot) in
+                    let count = snapshot.value as? Int
+            
+                if let actualCount = count {
+                    self.heartInt.append(actualCount)
+                    
+                    self.tab2BuskerTable.reloadData()
+                
+                    
+                    
+            
+                    
+            }
+            
+        })
 
-        // Do any additional setup after loading the view.
+     
     }
     
     private func setUpBuskers(){
@@ -64,7 +90,7 @@ class Tab2BuskerViewController: UIViewController, UITableViewDataSource, UITable
         
         cell.Name.text = currentBuskerArray[indexPath.row].name
         cell.Hashtag.text = currentBuskerArray[indexPath.row].hashtag
-        cell.HeartCount.text = "\(currentBuskerArray[indexPath.row].heartCount)"
+        cell.HeartCount.text = "\(heartInt[indexPath.row])"
         cell.BuskerImage.image = UIImage(named:currentBuskerArray[indexPath.row].image)
         
         return cell
