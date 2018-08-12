@@ -17,16 +17,19 @@ class RegisterViewController: UIViewController {
     @IBOutlet weak var hashtag: UITextField!
     @IBOutlet weak var playintro: UITextView!
     
+    @IBOutlet weak var textView: UITextView!
     @IBAction func register(_ sender: Any) {
     
-
+        ref?.child("Posts").childByAutoId().setValue(textView.text)
         }
+        var ref: DatabaseReference!
     
     
 
 override func viewDidLoad() {
     super.viewDidLoad()
     
+           ref = Database.database().reference()
     // Do any additional setup after loading the view.
 }
 
