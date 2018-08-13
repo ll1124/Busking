@@ -12,6 +12,8 @@
 		C207B93521201235000D3D74 /* FollowerTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C207B93421201235000D3D74 /* FollowerTableViewCell.swift */; };
 		C24110C62121775B00A6EA09 /* PersonalTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C24110C52121775B00A6EA09 /* PersonalTableViewController.swift */; };
 		C24110C821217B9000A6EA09 /* PersonalTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C24110C721217B9000A6EA09 /* PersonalTableViewCell.swift */; };
+		C24110CA2121B17A00A6EA09 /* Tab1-2TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C24110C92121B17A00A6EA09 /* Tab1-2TableViewCell.swift */; };
+		C24110CC2121B18E00A6EA09 /* Tab1-2TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C24110CB2121B18E00A6EA09 /* Tab1-2TableViewController.swift */; };
 		C241EE442120230A0062EFF5 /* BuskerProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C241EE432120230A0062EFF5 /* BuskerProfileViewController.swift */; };
 		C25D8761211C2E73002A8FB6 /* DataCenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = C25D8760211C2E73002A8FB6 /* DataCenter.swift */; };
 		C282EA53211814E7009409F2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C282EA52211814E7009409F2 /* AppDelegate.swift */; };
@@ -50,6 +52,8 @@
 		C207B93421201235000D3D74 /* FollowerTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FollowerTableViewCell.swift; sourceTree = "<group>"; };
 		C24110C52121775B00A6EA09 /* PersonalTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonalTableViewController.swift; sourceTree = "<group>"; };
 		C24110C721217B9000A6EA09 /* PersonalTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonalTableViewCell.swift; sourceTree = "<group>"; };
+		C24110C92121B17A00A6EA09 /* Tab1-2TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Tab1-2TableViewCell.swift"; sourceTree = "<group>"; };
+		C24110CB2121B18E00A6EA09 /* Tab1-2TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Tab1-2TableViewController.swift"; sourceTree = "<group>"; };
 		C241EE432120230A0062EFF5 /* BuskerProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuskerProfileViewController.swift; sourceTree = "<group>"; };
 		C25D8760211C2E73002A8FB6 /* DataCenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataCenter.swift; sourceTree = "<group>"; };
 		C282EA4F211814E7009409F2 /* newbuskingapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = newbuskingapp.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -177,6 +181,8 @@
 			children = (
 				C282EA6821181B0B009409F2 /* tab1UIViewController.swift */,
 				C2C1673121197F6700952595 /* Tab1ListTableViewController.swift */,
+				C24110C92121B17A00A6EA09 /* Tab1-2TableViewCell.swift */,
+				C24110CB2121B18E00A6EA09 /* Tab1-2TableViewController.swift */,
 				C282EA6A21181BAE009409F2 /* Tab1TableViewCell.swift */,
 				C2A2EAF3211DA5D400C00107 /* TAB2 */,
 			);
@@ -338,6 +344,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C24110CA2121B17A00A6EA09 /* Tab1-2TableViewCell.swift in Sources */,
 				C282EA6B21181BAE009409F2 /* Tab1TableViewCell.swift in Sources */,
 				C2A2EAE6211D70B400C00107 /* CHPickerViewController.swift in Sources */,
 				C2C1673421198CD200952595 /* Tab3TableViewController.swift in Sources */,
@@ -345,6 +352,7 @@
 				C2A2EAE7211D70B400C00107 /* CHTableViewControllers.swift in Sources */,
 				C24110C821217B9000A6EA09 /* PersonalTableViewCell.swift in Sources */,
 				C207B933212011EF000D3D74 /* FollowerTableViewController.swift in Sources */,
+				C24110CC2121B18E00A6EA09 /* Tab1-2TableViewController.swift in Sources */,
 				C241EE442120230A0062EFF5 /* BuskerProfileViewController.swift in Sources */,
 				C2A2EAEA211D70B400C00107 /* FIlters.swift in Sources */,
 				C2A2EAE9211D70B400C00107 /* DrawingCanvasView.swift in Sources */,

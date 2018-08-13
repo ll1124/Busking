@@ -7,9 +7,24 @@
 //
 
 import UIKit
+import MapKit
 
 class tab1UIViewController: UIViewController {
     
+    @IBOutlet var mapView: MKMapView!
+    @IBOutlet weak var everyView: UIView!
+    @IBOutlet weak var todayView: UIView!
+    @IBOutlet weak var segmented: UISegmentedControl!
+    
+    @IBAction func segment(_ sender: Any) {
+        if segmented.selectedSegmentIndex == 0 {
+            self.view.bringSubview(toFront: todayView)
+            self.view.bringSubview(toFront: mapView)
+        }
+        else {
+            self.view.bringSubview(toFront: everyView)
+        }
+    }
     
     override func viewDidLoad() {
         super.viewDidLoad()
