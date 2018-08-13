@@ -22,7 +22,7 @@ class Tab2BuskerTableViewCell: UITableViewCell {
     
     
     @IBOutlet weak var BuskerImage: UIImageView!
-  
+   
 
     
     
@@ -34,6 +34,10 @@ class Tab2BuskerTableViewCell: UITableViewCell {
             busker?.heartCount -= 1
             busker?.like = .x
         }
+        if busker?.like == .o{
+            sender.isSelected = true
+        }
+        
         HeartCount.text = "\(busker!.heartCount)"
     }
 
