@@ -20,6 +20,7 @@ class BuskerProfileViewController: UIViewController {
     var buskerprofile: Busker!
     
     override func viewWillAppear(_ animated: Bool) {
+        
         idLabel.text = buskerprofile.id
         nameLabel.text = buskerprofile.name
         introduceLabel.text = buskerprofile.introduce

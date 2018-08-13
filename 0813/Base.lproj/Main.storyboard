@@ -848,7 +848,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="aVv-AW-p9w" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="45.600000000000001" y="1906.1469265367318"/>
+            <point key="canvasLocation" x="46" y="2389"/>
         </scene>
         <!--버스커-->
         <scene sceneID="Ysh-7Z-Fr3">
@@ -1431,7 +1431,7 @@
             <objects>
                 <viewController id="DCc-he-eCD" customClass="BuskerProfileViewController" customModule="newbuskingapp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="udI-Ra-hhf">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="850"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="이름" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5xi-OU-cHV">
@@ -1509,6 +1509,7 @@
                                 </constraints>
                                 <state key="normal" title="follower"/>
                             </button>
+<<<<<<< HEAD
                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="kMb-rp-vug">
                                 <rect key="frame" x="-2" y="282" width="378" height="519"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -1643,6 +1644,15 @@
                                 </subviews>
                                 <color key="backgroundColor" red="0.91372394079999997" green="0.92241491289999999" blue="0.93391100890000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </view>
+=======
+                            <containerView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="gRl-0k-wGu">
+                                <rect key="frame" x="0.0" y="271" width="378" height="344"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                                <connections>
+                                    <segue destination="zx2-Mi-gKM" kind="embed" id="HXk-ea-AX3"/>
+                                </connections>
+                            </containerView>
+>>>>>>> 16f20aa0c984cf38082da788eb0939d1b0536fe1
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
@@ -1680,7 +1690,6 @@
                         <viewLayoutGuide key="safeArea" id="gDG-02-QS1"/>
                     </view>
                     <navigationItem key="navigationItem" title="프로필" id="X09-6A-H67"/>
-                    <size key="freeformSize" width="375" height="850"/>
                     <connections>
                         <outlet property="buskerImage" destination="e6F-o6-8EW" id="9uU-we-CKh"/>
                         <outlet property="followerLabel" destination="TZy-o4-aAm" id="j5M-aH-s8e"/>
@@ -1692,22 +1701,22 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="NV4-Ic-due" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1733.5999999999999" y="1368.2158920539732"/>
+            <point key="canvasLocation" x="1733.5999999999999" y="1368.6656671664168"/>
         </scene>
         <!--Personal Table View Controller-->
         <scene sceneID="niC-sb-pYC">
             <objects>
                 <tableViewController id="zx2-Mi-gKM" customClass="PersonalTableViewController" customModule="newbuskingapp" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="527" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="Z2A-4B-2uv">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="378" height="800"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <prototypes>
                             <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="PersonalTableViewCell" rowHeight="527" id="YVk-I6-Csb" customClass="PersonalTableViewCell" customModule="newbuskingapp" customModuleProvider="target">
-                                <rect key="frame" x="0.0" y="28" width="375" height="527"/>
+                                <rect key="frame" x="0.0" y="28" width="378" height="527"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="YVk-I6-Csb" id="XV9-cj-3jM">
-                                    <rect key="frame" x="0.0" y="0.0" width="375" height="526.5"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="378" height="526.5"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="QIO-A5-y7U">
@@ -1735,10 +1744,6 @@
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="cat" translatesAutoresizingMaskIntoConstraints="NO" id="Kgg-NZ-Y1L">
-                                                    <rect key="frame" x="17" y="22" width="39" height="40"/>
-                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                </imageView>
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="marketing" translatesAutoresizingMaskIntoConstraints="NO" id="owe-dc-F4f">
                                                     <rect key="frame" x="19" y="155" width="165" height="187"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -1757,10 +1762,6 @@
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="profile" translatesAutoresizingMaskIntoConstraints="NO" id="mYj-Vr-nkv">
-                                                    <rect key="frame" x="17" y="406" width="42" height="42"/>
-                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                </imageView>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="siths12" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="77S-eu-0ZV">
                                                     <rect key="frame" x="67" y="406" width="54" height="20"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -1841,6 +1842,14 @@
                                                     <rect key="frame" x="192" y="155" width="165" height="187"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 </imageView>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="profile" translatesAutoresizingMaskIntoConstraints="NO" id="x41-3X-zUW">
+                                                    <rect key="frame" x="17" y="406" width="42" height="42"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                </imageView>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="cat" translatesAutoresizingMaskIntoConstraints="NO" id="njR-D5-BIv">
+                                                    <rect key="frame" x="20" y="22" width="39" height="40"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                </imageView>
                                             </subviews>
                                             <color key="backgroundColor" red="0.91372394079999997" green="0.92241491289999999" blue="0.93391100890000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         </view>
@@ -1853,10 +1862,11 @@
                             <outlet property="delegate" destination="zx2-Mi-gKM" id="MPE-W9-L1Z"/>
                         </connections>
                     </tableView>
+                    <size key="freeformSize" width="378" height="800"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ugq-3E-fhg" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1764" y="2187"/>
+            <point key="canvasLocation" x="1731" y="2165"/>
         </scene>
     </scenes>
     <resources>
