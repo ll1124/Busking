@@ -11,6 +11,7 @@ import MapKit
 
 class tab1UIViewController: UIViewController {
     
+<<<<<<< HEAD
     @IBOutlet var mapView: MKMapView!
     @IBOutlet weak var everyView: UIView!
     @IBOutlet weak var todayView: UIView!
@@ -25,9 +26,15 @@ class tab1UIViewController: UIViewController {
             self.view.bringSubview(toFront: everyView)
         }
     }
+=======
+    @IBOutlet weak var placeshow: UILabel!
+    var label : String = ""
+   
+>>>>>>> 6167dde0fc2beb7e17d7247f1d2f79ce30a5b790
     
     override func viewDidLoad() {
         super.viewDidLoad()
+    placeshow.text = label
 
         // Do any additional setup after loading the view.
     }

@@ -56,20 +56,76 @@
             </objects>
             <point key="canvasLocation" x="-1633" y="472"/>
         </scene>
-        <!--View Controller-->
+        <!--Picker View Controller-->
         <scene sceneID="u7T-IC-nmJ">
             <objects>
-                <viewController id="vLr-KU-BLK" sceneMemberID="viewController">
+                <viewController modalPresentationStyle="overCurrentContext" id="vLr-KU-BLK" customClass="PickerViewController" customModule="FirebaseAuth" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="PAP-Xf-k5R">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="bkB-FI-uCz">
+                                <rect key="frame" x="45" y="193" width="284" height="242"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="veP-7y-dNs">
+                                        <rect key="frame" x="0.0" y="0.0" width="284" height="46"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="장소 선택" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mSv-QI-VBd">
+                                                <rect key="frame" x="110" y="13" width="64" height="21"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                        <color key="backgroundColor" red="0.50196081400000003" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    </view>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4WJ-lb-JDH">
+                                        <rect key="frame" x="127" y="212" width="30" height="30"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="normal" title="선택"/>
+                                        <connections>
+                                            <action selector="ChooseButton:" destination="vLr-KU-BLK" eventType="touchUpInside" id="e5g-aJ-Mhm"/>
+                                        </connections>
+                                    </button>
+                                    <pickerView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="K0j-9O-srj">
+                                        <rect key="frame" x="108" y="54" width="158" height="162"/>
+                                        <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                        <connections>
+                                            <outlet property="dataSource" destination="vLr-KU-BLK" id="rq1-Ar-JSz"/>
+                                            <outlet property="delegate" destination="vLr-KU-BLK" id="qFt-gK-EKQ"/>
+                                        </connections>
+                                    </pickerView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="서울특별시" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QhM-0m-jGL">
+                                        <rect key="frame" x="14" y="125" width="92" height="21"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="0.20000000300000001" green="0.20000000300000001" blue="0.20000000300000001" alpha="0.37887030291411045" colorSpace="calibratedRGB"/>
                         <viewLayoutGuide key="safeArea" id="pgW-nJ-Wq8"/>
                     </view>
+                    <connections>
+                        <outlet property="Choose" destination="4WJ-lb-JDH" id="z4F-gm-o6p"/>
+                        <outlet property="PickerTitle" destination="mSv-QI-VBd" id="Vn5-cc-mUK"/>
+                        <outlet property="PlacePicker" destination="K0j-9O-srj" id="nOP-OO-ahm"/>
+                        <outlet property="Seoul" destination="QhM-0m-jGL" id="Vg2-Ou-W13"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="5VO-JD-Wrn" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
+<<<<<<< HEAD
             <point key="canvasLocation" x="-2519" y="1270"/>
+=======
+            <point key="canvasLocation" x="-2733.5999999999999" y="1220.2398800599701"/>
+>>>>>>> 6167dde0fc2beb7e17d7247f1d2f79ce30a5b790
         </scene>
         <!--공연목록-->
         <scene sceneID="5hs-55-npG">
@@ -123,6 +179,9 @@
                                     <constraint firstAttribute="width" constant="56" id="aHT-Gz-FCe"/>
                                 </constraints>
                                 <state key="normal" title="장소 선택"/>
+                                <connections>
+                                    <segue destination="vLr-KU-BLK" kind="presentation" id="aPd-Sy-s4x"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="시간" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gHY-jH-6UB">
                                 <rect key="frame" x="25" y="161" width="28" height="20"/>
@@ -151,22 +210,36 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="아티스트" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="V6k-na-UMJ">
+<<<<<<< HEAD
                                 <rect key="frame" x="266" y="161.5" width="55.5" height="19.5"/>
+=======
+                                <rect key="frame" x="297" y="160.5" width="55.5" height="20.5"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="55.5" id="2Bz-hM-FAh"/>
+                                    <constraint firstAttribute="height" constant="20" id="pH2-UX-pIh"/>
+                                </constraints>
+>>>>>>> 6167dde0fc2beb7e17d7247f1d2f79ce30a5b790
                                 <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+<<<<<<< HEAD
                             <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="r6L-z2-moV">
                                 <rect key="frame" x="0.0" y="433" width="375" height="185"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="375" id="nuL-TO-hBo"/>
                                 </constraints>
                             </mapView>
+=======
+>>>>>>> 6167dde0fc2beb7e17d7247f1d2f79ce30a5b790
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="LBb-eP-iWF" firstAttribute="top" secondItem="HcQ-fZ-27e" secondAttribute="top" constant="51" id="1wq-9z-4pZ"/>
+<<<<<<< HEAD
                             <constraint firstItem="LQT-lY-qUO" firstAttribute="leading" secondItem="HcQ-fZ-27e" secondAttribute="leading" id="6sW-3K-jSs"/>
+=======
+>>>>>>> 6167dde0fc2beb7e17d7247f1d2f79ce30a5b790
                             <constraint firstItem="gHY-jH-6UB" firstAttribute="leading" secondItem="HcQ-fZ-27e" secondAttribute="leading" constant="25" id="AI9-89-54f"/>
                             <constraint firstItem="2Oe-20-2OM" firstAttribute="leading" secondItem="dbE-uy-KWe" secondAttribute="trailing" constant="20" id="AKV-tw-S90"/>
                             <constraint firstItem="z94-Er-gDU" firstAttribute="leading" secondItem="HcQ-fZ-27e" secondAttribute="leading" constant="95" id="APW-cB-DgC"/>
@@ -175,7 +248,10 @@
                             <constraint firstItem="3Im-8c-0YQ" firstAttribute="leading" secondItem="HcQ-fZ-27e" secondAttribute="leading" id="Ihh-WB-jQC"/>
                             <constraint firstItem="dbE-uy-KWe" firstAttribute="leading" secondItem="HcQ-fZ-27e" secondAttribute="leading" constant="39" id="Is9-j5-BPI"/>
                             <constraint firstItem="r6L-z2-moV" firstAttribute="bottom" secondItem="HcQ-fZ-27e" secondAttribute="bottom" id="L1s-Sa-ppz"/>
+<<<<<<< HEAD
                             <constraint firstItem="V6k-na-UMJ" firstAttribute="top" secondItem="nVp-fu-sve" secondAttribute="topMargin" constant="97.5" id="NMa-RT-0YI"/>
+=======
+>>>>>>> 6167dde0fc2beb7e17d7247f1d2f79ce30a5b790
                             <constraint firstItem="3Im-8c-0YQ" firstAttribute="trailing" secondItem="HcQ-fZ-27e" secondAttribute="trailing" id="Qn0-AB-4M8"/>
                             <constraint firstItem="V6k-na-UMJ" firstAttribute="leading" secondItem="zXG-ot-aNJ" secondAttribute="trailing" constant="155" id="Sv8-AK-h4a"/>
                             <constraint firstAttribute="trailingMargin" secondItem="V6k-na-UMJ" secondAttribute="trailing" constant="37.5" id="TTv-Ah-22V"/>
@@ -192,7 +268,12 @@
                             <constraint firstItem="2Oe-20-2OM" firstAttribute="centerY" secondItem="dbE-uy-KWe" secondAttribute="centerY" id="u5y-4f-vCW"/>
                             <constraint firstItem="LQT-lY-qUO" firstAttribute="trailing" secondItem="HcQ-fZ-27e" secondAttribute="trailing" id="vH7-j2-jmb"/>
                             <constraint firstItem="dbE-uy-KWe" firstAttribute="top" secondItem="HcQ-fZ-27e" secondAttribute="top" constant="51" id="vj4-U9-zmD"/>
+<<<<<<< HEAD
                             <constraint firstAttribute="bottom" secondItem="LQT-lY-qUO" secondAttribute="bottom" constant="49" id="xt1-wU-AOU"/>
+=======
+                            <constraint firstItem="HcQ-fZ-27e" firstAttribute="trailing" secondItem="V6k-na-UMJ" secondAttribute="trailing" constant="22" id="wpV-8O-WmG"/>
+                            <constraint firstItem="3Im-8c-0YQ" firstAttribute="top" secondItem="V6k-na-UMJ" secondAttribute="bottom" constant="4" id="zsR-2s-7C3"/>
+>>>>>>> 6167dde0fc2beb7e17d7247f1d2f79ce30a5b790
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="HcQ-fZ-27e"/>
                     </view>
@@ -204,10 +285,14 @@
                         </barButtonItem>
                     </navigationItem>
                     <connections>
+<<<<<<< HEAD
                         <outlet property="everyView" destination="LQT-lY-qUO" id="K8Q-Ph-CK5"/>
                         <outlet property="mapView" destination="r6L-z2-moV" id="H0f-7J-iKl"/>
                         <outlet property="segmented" destination="z94-Er-gDU" id="ple-Yp-uiX"/>
                         <outlet property="todayView" destination="3Im-8c-0YQ" id="SDe-z0-z08"/>
+=======
+                        <outlet property="placeshow" destination="2Oe-20-2OM" id="yOZ-Fc-Tec"/>
+>>>>>>> 6167dde0fc2beb7e17d7247f1d2f79ce30a5b790
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="PB7-qg-XOB" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -873,7 +958,7 @@
             </objects>
             <point key="canvasLocation" x="47" y="472"/>
         </scene>
-        <!--Tab2 Busker View Controller-->
+        <!--버스커-->
         <scene sceneID="f6g-Pj-VZV">
             <objects>
                 <viewController id="m2S-fO-uTQ" customClass="Tab2BuskerViewController" customModule="newbuskingapp" customModuleProvider="target" sceneMemberID="viewController">
@@ -988,7 +1073,7 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6eR-Yx-9YG"/>
                     </view>
-                    <navigationItem key="navigationItem" id="yzE-AO-EZy"/>
+                    <navigationItem key="navigationItem" title="버스커" id="yzE-AO-EZy"/>
                     <connections>
                         <outlet property="tab2BuskerTable" destination="y3L-pO-u4e" id="RzY-7O-QlU"/>
                         <outlet property="tab2SearchBar" destination="yAD-Jb-ydh" id="Xh6-80-JyZ"/>
@@ -1264,7 +1349,7 @@
                                             <nil key="highlightedColor"/>
                                         </label>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="아티스트" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vpf-db-WvI">
-                                            <rect key="frame" x="266" y="12.5" width="52" height="18"/>
+                                            <rect key="frame" x="285" y="12.5" width="52" height="18"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                             <nil key="textColor"/>
                                             <nil key="highlightedColor"/>
@@ -1272,11 +1357,18 @@
                                     </subviews>
                                     <constraints>
                                         <constraint firstItem="QH5-jZ-OIN" firstAttribute="leading" secondItem="oTT-qp-LKS" secondAttribute="leadingMargin" constant="5" id="A6M-SW-EH4"/>
+<<<<<<< HEAD
                                         <constraint firstAttribute="bottomMargin" secondItem="vpf-db-WvI" secondAttribute="bottom" constant="3.5" id="CFx-90-zW0"/>
                                         <constraint firstItem="vpf-db-WvI" firstAttribute="leading" secondItem="oTT-qp-LKS" secondAttribute="leadingMargin" constant="250" id="UCp-rP-65N"/>
                                         <constraint firstItem="Koz-wT-hiw" firstAttribute="centerY" secondItem="oTT-qp-LKS" secondAttribute="centerY" id="cOG-d5-7Xn"/>
                                         <constraint firstItem="Koz-wT-hiw" firstAttribute="leading" secondItem="QH5-jZ-OIN" secondAttribute="trailing" constant="37" id="gG4-pH-yKC"/>
                                         <constraint firstItem="vpf-db-WvI" firstAttribute="top" secondItem="oTT-qp-LKS" secondAttribute="topMargin" constant="1.5" id="sR9-ri-yag"/>
+=======
+                                        <constraint firstItem="vpf-db-WvI" firstAttribute="centerY" secondItem="oTT-qp-LKS" secondAttribute="centerY" id="OSZ-Zf-xDn"/>
+                                        <constraint firstItem="Koz-wT-hiw" firstAttribute="centerY" secondItem="oTT-qp-LKS" secondAttribute="centerY" id="cOG-d5-7Xn"/>
+                                        <constraint firstItem="Koz-wT-hiw" firstAttribute="leading" secondItem="QH5-jZ-OIN" secondAttribute="trailing" constant="37" id="gG4-pH-yKC"/>
+                                        <constraint firstAttribute="trailingMargin" secondItem="vpf-db-WvI" secondAttribute="trailing" constant="22" id="hEa-EX-ZFG"/>
+>>>>>>> 6167dde0fc2beb7e17d7247f1d2f79ce30a5b790
                                         <constraint firstItem="QH5-jZ-OIN" firstAttribute="centerY" secondItem="oTT-qp-LKS" secondAttribute="centerY" id="ySx-7L-0LX"/>
                                     </constraints>
                                 </tableViewCellContentView>
