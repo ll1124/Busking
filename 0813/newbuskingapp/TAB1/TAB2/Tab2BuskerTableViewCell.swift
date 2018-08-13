@@ -22,14 +22,25 @@ class Tab2BuskerTableViewCell: UITableViewCell {
     
     
     @IBOutlet weak var BuskerImage: UIImageView!
+   
+
+    
+    
     @IBAction func HeartClick(_ sender: UIButton) {
         if sender.isSelected == true {
             busker?.heartCount += 1
+            busker?.like = .o
         }else{
             busker?.heartCount -= 1
+            busker?.like = .x
         }
+        if busker?.like == .o{
+            sender.isSelected = true
+        }
+        
         HeartCount.text = "\(busker!.heartCount)"
     }
+
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code

@@ -22,12 +22,12 @@ class Tab2BuskerViewController: UIViewController, UITableViewDataSource, UITable
         
         buskerArray.append(BuskersInfo(name:"김안경",hashtag:"#Solo, #Ballad", heartCount:10, image:"10cm",like: .x))
         buskerArray.append(BuskersInfo(name:"김고양",hashtag:"#Solo, #Piano", heartCount:18, image:"cat",like: .x))
-        buskerArray.append(BuskersInfo(name:"GU",hashtag:"#Duet, #Guitar", heartCount:07, image: "gu", like: .o))
+        buskerArray.append(BuskersInfo(name:"GU",hashtag:"#Duet, #Guitar", heartCount:07, image: "gu", like: .x))
         buskerArray.append(BuskersInfo(name:"정준일",hashtag:"#Solo, #Ballad", heartCount:10, image: "jung", like: .x))
-        buskerArray.append(BuskersInfo(name:"OH",hashtag:"#Band", heartCount:65, image:"oh",like: .o))
-        buskerArray.append(BuskersInfo(name:"박로이",hashtag:"#Solo, #Folk", heartCount:30, image: "roy", like: .o))
-        buskerArray.append(BuskersInfo(name:"선우정",hashtag:"Piano, #Ballad", heartCount:20, image: "sun", like: .o))
-        buskerArray.append(BuskersInfo(name:"노서우",hashtag:"#Guitar, #Dance", heartCount:13, image: "profile", like: .o))
+        buskerArray.append(BuskersInfo(name:"OH",hashtag:"#Band", heartCount:65, image:"oh",like: .x))
+        buskerArray.append(BuskersInfo(name:"박로이",hashtag:"#Solo, #Folk", heartCount:30, image: "roy", like: .x))
+        buskerArray.append(BuskersInfo(name:"선우정",hashtag:"Piano, #Ballad", heartCount:20, image: "sun", like: .x))
+        buskerArray.append(BuskersInfo(name:"노서우",hashtag:"#Guitar, #Dance", heartCount:13, image: "profile", like: .x))
         
         currentBuskerArray = buskerArray
         
@@ -129,7 +129,7 @@ class Tab2BuskerViewController: UIViewController, UITableViewDataSource, UITable
         let hashtag : String
         var heartCount : Int
         let image : String
-        let like : LikeType
+        var like : LikeType
   
         
         init(name:String, hashtag: String, heartCount: Int, image: String, like: LikeType){

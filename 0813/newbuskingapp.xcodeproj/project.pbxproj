@@ -55,7 +55,7 @@
 		C282EA4F211814E7009409F2 /* newbuskingapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = newbuskingapp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C282EA52211814E7009409F2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C282EA57211814E7009409F2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		C282EA59211814E7009409F2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C282EA59211814E7009409F2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../Assets.xcassets; sourceTree = "<group>"; };
 		C282EA5C211814E7009409F2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C282EA5E211814E7009409F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C282EA6821181B0B009409F2 /* tab1UIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tab1UIViewController.swift; sourceTree = "<group>"; };
@@ -187,10 +187,19 @@
 			isa = PBXGroup;
 			children = (
 				C2F7CFFD211AEAD40024A4AD /* Tab2BuskerTableViewCell.swift */,
-				C2F7CFFB211AE9F70024A4AD /* Tab2BuskerViewController.swift */,
 				C2A2EAF0211D930E00C00107 /* RegisterViewController.swift */,
+				C2F7CFFB211AE9F70024A4AD /* Tab2BuskerViewController.swift */,
+				C2CF653221219DA70071F26D /* TAB3 */,
 			);
 			path = TAB2;
+			sourceTree = "<group>";
+		};
+		C2CF653221219DA70071F26D /* TAB3 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = TAB3;
+			path = ../../..;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

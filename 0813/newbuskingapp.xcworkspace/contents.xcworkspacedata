@@ -4,6 +4,9 @@
    <Group
       location = "container:"
       name = "TAB3">
+      <FileRef
+         location = "group:newbuskingapp/../Assets.xcassets">
+      </FileRef>
    </Group>
    <FileRef
       location = "group:newbuskingapp.xcodeproj">
