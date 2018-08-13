@@ -10,6 +10,8 @@
 		2267D4F4B17477584E226B0C /* Pods_newbuskingapp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 157616CC36DBF6AFEE5152F5 /* Pods_newbuskingapp.framework */; };
 		C207B933212011EF000D3D74 /* FollowerTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C207B932212011EF000D3D74 /* FollowerTableViewController.swift */; };
 		C207B93521201235000D3D74 /* FollowerTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C207B93421201235000D3D74 /* FollowerTableViewCell.swift */; };
+		C24110C62121775B00A6EA09 /* PersonalTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C24110C52121775B00A6EA09 /* PersonalTableViewController.swift */; };
+		C24110C821217B9000A6EA09 /* PersonalTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C24110C721217B9000A6EA09 /* PersonalTableViewCell.swift */; };
 		C241EE442120230A0062EFF5 /* BuskerProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C241EE432120230A0062EFF5 /* BuskerProfileViewController.swift */; };
 		C25D8761211C2E73002A8FB6 /* DataCenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = C25D8760211C2E73002A8FB6 /* DataCenter.swift */; };
 		C282EA53211814E7009409F2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C282EA52211814E7009409F2 /* AppDelegate.swift */; };
@@ -46,6 +48,8 @@
 		99868F9B9A0D40DCA2F135E3 /* Pods-newbuskingapp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-newbuskingapp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-newbuskingapp/Pods-newbuskingapp.debug.xcconfig"; sourceTree = "<group>"; };
 		C207B932212011EF000D3D74 /* FollowerTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FollowerTableViewController.swift; sourceTree = "<group>"; };
 		C207B93421201235000D3D74 /* FollowerTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FollowerTableViewCell.swift; sourceTree = "<group>"; };
+		C24110C52121775B00A6EA09 /* PersonalTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonalTableViewController.swift; sourceTree = "<group>"; };
+		C24110C721217B9000A6EA09 /* PersonalTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonalTableViewCell.swift; sourceTree = "<group>"; };
 		C241EE432120230A0062EFF5 /* BuskerProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuskerProfileViewController.swift; sourceTree = "<group>"; };
 		C25D8760211C2E73002A8FB6 /* DataCenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataCenter.swift; sourceTree = "<group>"; };
 		C282EA4F211814E7009409F2 /* newbuskingapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = newbuskingapp.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -142,6 +146,8 @@
 				C207B93421201235000D3D74 /* FollowerTableViewCell.swift */,
 				C2D8FD862120126F005E4389 /* FollowingTableViewController.swift */,
 				C241EE432120230A0062EFF5 /* BuskerProfileViewController.swift */,
+				C24110C52121775B00A6EA09 /* PersonalTableViewController.swift */,
+				C24110C721217B9000A6EA09 /* PersonalTableViewCell.swift */,
 				C282EA5E211814E7009409F2 /* Info.plist */,
 			);
 			path = newbuskingapp;
@@ -328,11 +334,13 @@
 				C2C1673421198CD200952595 /* Tab3TableViewController.swift in Sources */,
 				C2A2EAE3211D70B400C00107 /* CHControls.swift in Sources */,
 				C2A2EAE7211D70B400C00107 /* CHTableViewControllers.swift in Sources */,
+				C24110C821217B9000A6EA09 /* PersonalTableViewCell.swift in Sources */,
 				C207B933212011EF000D3D74 /* FollowerTableViewController.swift in Sources */,
 				C241EE442120230A0062EFF5 /* BuskerProfileViewController.swift in Sources */,
 				C2A2EAEA211D70B400C00107 /* FIlters.swift in Sources */,
 				C2A2EAE9211D70B400C00107 /* DrawingCanvasView.swift in Sources */,
 				C2D8FD872120126F005E4389 /* FollowingTableViewController.swift in Sources */,
+				C24110C62121775B00A6EA09 /* PersonalTableViewController.swift in Sources */,
 				C2A2EAEC211D70B400C00107 /* RecordButton.swift in Sources */,
 				C282EA6921181B0B009409F2 /* tab1UIViewController.swift in Sources */,
 				C2A2EAF1211D930E00C00107 /* RegisterViewController.swift in Sources */,

@@ -60,9 +60,9 @@ var singasong = Hashtag(hashtags: "싱어송라이터")
 
 
 var jji = Busker(name: "정준일", hashtag: "#Piano #Ballad #Solo", heartCount: 183, profileImage: "jung", introduce: "이별노래 전문 버스커 정준일입니다", id: "jung_ji_Bal", followings: 54)
-var gu = Busker(name: "길구봉구", hashtag: "#Duo #Folk #Ballad", heartCount: 105, profileImage: "gu", introduce: "신곡 '이별' 많이 사랑해주세요", id: "gu_Duo", followings: 45)
-var roy = Busker(name: "김로이", hashtag: "Ballad #Drama #OST", heartCount: 345, profileImage: "roy", introduce: "발라드 가수 김로이입니다", id: "Bus_king_roy", followings: 27)
-var oh = Busker(name: "혁오", hashtag: "인디 #Band #독특한 음색", heartCount: 222, profileImage: "oh", introduce: "홍대에서 공연하는 인디밴드 혁오입니다", id: "Indie_oh", followings: 63)
+var gu = Busker(name: "GU", hashtag: "#Duo #Folk #Ballad", heartCount: 105, profileImage: "gu", introduce: "신곡 '이별' 많이 사랑해주세요", id: "박", followings: 45)
+var roy = Busker(name: "박로이", hashtag: "Ballad #Drama #OST", heartCount: 345, profileImage: "roy", introduce: "발라드 가수 박로이입니다", id: "Bus_king_roy", followings: 27)
+var oh = Busker(name: "OH", hashtag: "인디 #Band #독특한 음색", heartCount: 222, profileImage: "oh", introduce: "홍대에서 공연하는 인디밴드 OH입니다", id: "Indie_oh", followings: 63)
 var sim = Busker(name: "심재면", hashtag: "#Guitar #Solo", heartCount: 311, profileImage: "profile", introduce: "기타치며 노래합니다", id: "Sim_Sim_98", followings: 34)
 var cat = Busker(name: "김고양", hashtag: "#Piano #Ballad #Solo", heartCount: 823, profileImage: "cat", introduce: "홍대 공연 많이와주세요!", id: "Cat_Kim", followings: 12)
 var glasses = Busker(name: "김안경", hashtag: "Folk #Ballad #Solo #Dance", heartCount: 605, profileImage: "10cm", introduce: "솔로 포크발라드 버스킹 공연합니다", id: "Gla_sses", followings: 32)
