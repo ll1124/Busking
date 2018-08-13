@@ -44,10 +44,6 @@ class Tab2BuskerViewController: UIViewController, UITableViewDataSource, UITable
                     self.heartInt.append(actualCount)
                     
                     self.tab2BuskerTable.reloadData()
-                
-                    
-                    
-            
                     
             }
             

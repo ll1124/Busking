@@ -25,6 +25,10 @@ import FirebaseDatabase
     
     @IBOutlet weak var BuskerImage: UIImageView!
     @IBAction func HeartClick(_ sender: UIButton) {
+        
+        
+
+
 
         }
         
@@ -46,4 +50,6 @@ import FirebaseDatabase
         
         // Configure the view for the selected state
     }
+     
+
 }

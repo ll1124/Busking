@@ -8,6 +8,7 @@
 
 import Foundation
 
+
 struct PlayInfo {
     var time : String
     var place : String
