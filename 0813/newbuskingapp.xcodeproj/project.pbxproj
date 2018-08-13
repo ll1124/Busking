@@ -187,8 +187,8 @@
 			isa = PBXGroup;
 			children = (
 				C2F7CFFD211AEAD40024A4AD /* Tab2BuskerTableViewCell.swift */,
-				C2F7CFFB211AE9F70024A4AD /* Tab2BuskerViewController.swift */,
 				C2A2EAF0211D930E00C00107 /* RegisterViewController.swift */,
+				C2F7CFFB211AE9F70024A4AD /* Tab2BuskerViewController.swift */,
 			);
 			path = TAB2;
 			sourceTree = "<group>";
