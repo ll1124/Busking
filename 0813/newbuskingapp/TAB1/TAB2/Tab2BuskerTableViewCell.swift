@@ -9,9 +9,8 @@
 import UIKit
 
 
-var heartInt = 0
     
-    class Tab2BuskerTableViewCell: UITableViewCell {
+class Tab2BuskerTableViewCell: UITableViewCell {
     
     
     @IBOutlet weak var Name: UILabel!
@@ -19,29 +18,21 @@ var heartInt = 0
     //heart
     @IBOutlet weak var HeartButton: UIButton!
     @IBOutlet weak var HeartCount: UILabel!
-    
+    var busker: BuskersInfo?
     
     
     @IBOutlet weak var BuskerImage: UIImageView!
     @IBAction func HeartClick(_ sender: UIButton) {
         if sender.isSelected == true {
-            heartInt += 1
-            HeartCount.text = String(heartInt)
+            busker?.heartCount += 1
         }else{
-            heartInt -= 1
-            HeartCount.text = String(heartInt)
+            busker?.heartCount -= 1
         }
-        
-        
-        
-        
-        
-        
+        HeartCount.text = "\(busker!.heartCount)"
     }
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
-        HeartCount.text = String(heartInt)
     }
     
     

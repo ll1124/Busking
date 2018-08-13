@@ -83,43 +83,8 @@ struct FollowInfo {
     var memo: String
 }
 
-class BuskerInfo{
-    let name : String
-    let hashtag : String
-    let heartCount : Int
-    let image : String
-    
-    
-    init(name:String, hashtag: String, heartCount: Int, image: String){
-        self.name = name
-        self.hashtag = hashtag
-        self.heartCount = heartCount
-        self.image = image
-    }
-    
-}
 
-    //배열
-    var buskerArray = [BuskerInfo]() //to setUpBuskers
-    var currentBuskerArray = [BuskerInfo]() //update table
-        
-        // Do any additional setup after loading the view.
 
-    private func setUpBuskers(){
-        
-        buskerArray.append(BuskerInfo(name:"김안경",hashtag:"#Solo, #Ballad", heartCount:10, image:"10cm"))
-        buskerArray.append(BuskerInfo(name:"김고양",hashtag:"#Solo, #Piano", heartCount:18, image:"cat"))
-        buskerArray.append(BuskerInfo(name:"GU",hashtag:"#Duet, #Guitar", heartCount:07, image: "gu"))
-        buskerArray.append(BuskerInfo(name:"정준일",hashtag:"#Solo, #Ballad", heartCount:10, image: "jung"))
-        buskerArray.append(BuskerInfo(name:"OH",hashtag:"#Band", heartCount:65, image:"oh"))
-        buskerArray.append(BuskerInfo(name:"박로이",hashtag:"#Solo, #Folk", heartCount:30, image: "roy"))
-        buskerArray.append(BuskerInfo(name:"선우정",hashtag:"Piano, #Ballad", heartCount:20, image: "sun"))
-        buskerArray.append(BuskerInfo(name:"노서우",hashtag:"#Guitar, #Dance", heartCount:13, image: "profile"))
-        
-        currentBuskerArray = buskerArray
-        
-    }
-    
 
 
     
