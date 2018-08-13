@@ -20,7 +20,6 @@ class Tab2BuskerViewController: UIViewController, UITableViewDataSource, UITable
     var ref: DatabaseReference!
     var databaseHandle : DatabaseHandle?
     var heartInt = [Int]()
-    
     var buskerArray = [BuskerInfo]() //to setUpBuskers
     var currentBuskerArray = [BuskerInfo]() //update table
     
@@ -86,7 +85,7 @@ class Tab2BuskerViewController: UIViewController, UITableViewDataSource, UITable
         
         cell.Name.text = currentBuskerArray[indexPath.row].name
         cell.Hashtag.text = currentBuskerArray[indexPath.row].hashtag
-        cell.HeartCount.text = "\(heartInt[indexPath.row])"
+        cell.HeartCount.text = "\(currentBuskerArray[indexPath.row].heartCount)"
         cell.BuskerImage.image = UIImage(named:currentBuskerArray[indexPath.row].image)
         
         return cell
