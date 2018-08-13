@@ -10,9 +10,13 @@ import UIKit
 
 class tab1UIViewController: UIViewController {
     
+    @IBOutlet weak var placeshow: UILabel!
+    var label : String = ""
+   
     
     override func viewDidLoad() {
         super.viewDidLoad()
+    placeshow.text = label
 
         // Do any additional setup after loading the view.
     }

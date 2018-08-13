@@ -36,6 +36,7 @@
 		C2A2EAF1211D930E00C00107 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2A2EAF0211D930E00C00107 /* RegisterViewController.swift */; };
 		C2C1673221197F6700952595 /* Tab1ListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2C1673121197F6700952595 /* Tab1ListTableViewController.swift */; };
 		C2C1673421198CD200952595 /* Tab3TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2C1673321198CD200952595 /* Tab3TableViewController.swift */; };
+		C2CF65372121BB990071F26D /* PickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2CF65362121BB990071F26D /* PickerViewController.swift */; };
 		C2D8FD872120126F005E4389 /* FollowingTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2D8FD862120126F005E4389 /* FollowingTableViewController.swift */; };
 		C2D8FD8B212012A6005E4389 /* FollowingTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2D8FD8A212012A6005E4389 /* FollowingTableViewCell.swift */; };
 		C2F7CFFC211AE9F70024A4AD /* Tab2BuskerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2F7CFFB211AE9F70024A4AD /* Tab2BuskerViewController.swift */; };
@@ -76,6 +77,7 @@
 		C2A2EAF0211D930E00C00107 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
 		C2C1673121197F6700952595 /* Tab1ListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tab1ListTableViewController.swift; sourceTree = "<group>"; };
 		C2C1673321198CD200952595 /* Tab3TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tab3TableViewController.swift; sourceTree = "<group>"; };
+		C2CF65362121BB990071F26D /* PickerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerViewController.swift; sourceTree = "<group>"; };
 		C2D8FD862120126F005E4389 /* FollowingTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FollowingTableViewController.swift; sourceTree = SOURCE_ROOT; };
 		C2D8FD8A212012A6005E4389 /* FollowingTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FollowingTableViewCell.swift; sourceTree = "<group>"; };
 		C2F7CFFB211AE9F70024A4AD /* Tab2BuskerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tab2BuskerViewController.swift; sourceTree = "<group>"; };
@@ -178,6 +180,7 @@
 				C282EA6821181B0B009409F2 /* tab1UIViewController.swift */,
 				C2C1673121197F6700952595 /* Tab1ListTableViewController.swift */,
 				C282EA6A21181BAE009409F2 /* Tab1TableViewCell.swift */,
+				C2CF65362121BB990071F26D /* PickerViewController.swift */,
 				C2A2EAF3211DA5D400C00107 /* TAB2 */,
 			);
 			path = TAB1;
@@ -345,6 +348,7 @@
 				C2A2EAE7211D70B400C00107 /* CHTableViewControllers.swift in Sources */,
 				C24110C821217B9000A6EA09 /* PersonalTableViewCell.swift in Sources */,
 				C207B933212011EF000D3D74 /* FollowerTableViewController.swift in Sources */,
+				C2CF65372121BB990071F26D /* PickerViewController.swift in Sources */,
 				C241EE442120230A0062EFF5 /* BuskerProfileViewController.swift in Sources */,
 				C2A2EAEA211D70B400C00107 /* FIlters.swift in Sources */,
 				C2A2EAE9211D70B400C00107 /* DrawingCanvasView.swift in Sources */,
