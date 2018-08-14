@@ -257,21 +257,6 @@
             </objects>
             <point key="canvasLocation" x="-1674.4000000000001" y="1259.8200899550227"/>
         </scene>
-        <!--View Controller-->
-        <scene sceneID="pcR-vy-haf">
-            <objects>
-                <viewController id="kiQ-Mm-FeW" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="iTj-7P-ajp">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                        <viewLayoutGuide key="safeArea" id="H76-ZC-QtT"/>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="AZH-g3-JEs" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="-1796" y="2081"/>
-        </scene>
         <!--공연등록-->
         <scene sceneID="uvY-Um-jkX">
             <objects>
