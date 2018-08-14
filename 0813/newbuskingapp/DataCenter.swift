@@ -15,6 +15,14 @@ struct PlayInfo {
     var heartCount: Int
 }
 
+struct PlayInfo2 {
+    var date: String
+    var time: String
+    var place: String
+    var artist: String
+    var heartCount: Int
+}
+
 var plays = [
     PlayInfo(time: "12:00", place : "홍대 앞 패션 거리", artist: "김희준", heartCount: 11),
     PlayInfo(time: "12:30", place : "홍대 걷고싶은 거리", artist: "GG", heartCount: 15),
@@ -24,6 +32,27 @@ var plays = [
     PlayInfo(time: "16:00", place : "경의선 책거리", artist: "박희선", heartCount: 8),
     PlayInfo(time: "18:00", place : "홍대 앞 패션 거리", artist: "uu", heartCount: 26),
     PlayInfo(time: "18:10", place : "경의선 책거리", artist: "hehy", heartCount: 9)
+]
+
+var playses = [
+    PlayInfo2(date: "8/3", time: "12:00", place : "홍대 걷고싶은 거리", artist: "최태영", heartCount: 13),
+    PlayInfo2(date: "8/3", time: "14:00", place : "신촌역 앞", artist: "노서우", heartCount: 23),
+    PlayInfo2(date: "8/3", time: "16:00", place : "홍대 앞 패션 거리", artist: "Guys", heartCount: 11),
+    PlayInfo2(date: "8/4", time: "9:00", place : "성신여대 입구 역", artist: "구영완", heartCount: 23),
+    PlayInfo2(date: "8/4", time: "12:00", place : "홍대 가차샵 앞", artist: "이희준", heartCount: 12),
+    PlayInfo2(date: "8/4", time: "19:00", place : "홍대 앞 패션 거리", artist: "GU", heartCount: 13),
+    PlayInfo2(date: "8/5", time: "10:00", place : "신촌역 3번 출구", artist: "김안경", heartCount: 14),
+    PlayInfo2(date: "8/5", time: "15:00", place : "홍대 걷고싶은 거리", artist: "김멍멍", heartCount: 21),
+    PlayInfo2(date: "8/5", time: "16:30", place : "혜화역 1번 출구", artist: "하정화", heartCount: 13),
+    PlayInfo2(date: "8/5", time: "18:00", place : "경의선 책거리", artist: "U&I", heartCount: 33),
+    PlayInfo2(date: "8/5", time: "20:30", place : "홍대 걷고싶은 거리", artist: "너와나", heartCount: 13),
+    PlayInfo2(date: "8/6", time: "12:00", place : "경의선 책거리", artist: "이희재", heartCount: 52),
+    PlayInfo2(date: "8/6", time: "13:00", place : "회기역 3번 출구", artist: "조훈", heartCount: 21),
+    PlayInfo2(date: "8/6", time: "15:00", place : "홍대 가차샵 앞", artist: "김구라", heartCount: 21),
+    PlayInfo2(date: "8/7", time: "10:30", place : "홍대 앞 패션 거리", artist: "이재성", heartCount: 34),
+    PlayInfo2(date: "8/7", time: "13:00", place : "홍대 걷고싶은 거리", artist: "이강인", heartCount: 12),
+    PlayInfo2(date: "8/8", time: "14:30", place : "성신여대 입구 역", artist: "U&I", heartCount: 43),
+    PlayInfo2(date: "8/8", time: "16:00", place : "홍대 가차샵 앞", artist: "심재면", heartCount: 11)
 ]
 
 struct Busker {
