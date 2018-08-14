@@ -7,12 +7,30 @@
 //
 
 import UIKit
+import MapKit
 
 class tab1UIViewController: UIViewController {
     
+<<<<<<< HEAD
+    @IBOutlet var mapView: MKMapView!
+    @IBOutlet weak var everyView: UIView!
+    @IBOutlet weak var todayView: UIView!
+    @IBOutlet weak var segmented: UISegmentedControl!
+    
+    @IBAction func segment(_ sender: Any) {
+        if segmented.selectedSegmentIndex == 0 {
+            self.view.bringSubview(toFront: todayView)
+            self.view.bringSubview(toFront: mapView)
+        }
+        else {
+            self.view.bringSubview(toFront: everyView)
+        }
+    }
+=======
     @IBOutlet weak var placeshow: UILabel!
     var label : String = ""
    
+>>>>>>> 6167dde0fc2beb7e17d7247f1d2f79ce30a5b790
     
     override func viewDidLoad() {
         super.viewDidLoad()
